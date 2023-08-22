@@ -29,6 +29,6 @@ execute if score Difficulty GameSettings matches 2 run function rpgpve:game/diff
 # check if game end
 execute store result score #TotalPlayersCount Temp if entity @a[tag=IsInRPGPVEGame]
 execute store result score #DeadPlayersCount Temp if entity @a[tag=IsInRPGPVEGame,tag=Eliminated]
-#execute if score #DeadPlayersCount Temp >= #TotalPlayersCount Temp run function rpgpve:game/death/game_end
+execute if score #DeadPlayersCount Temp >= #TotalPlayersCount Temp run function rpgpve:game/death/game_end
 
 tag @s remove NewDead
