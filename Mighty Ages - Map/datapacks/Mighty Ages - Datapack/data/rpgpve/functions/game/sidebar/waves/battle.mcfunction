@@ -1,0 +1,1 @@
+$team modify wave suffix {"text":" Battle Wave #$(Battle)","color":"red"}

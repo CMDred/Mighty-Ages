@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "rpgpve:is_manual_damage",
+                "expected": false
+              },
+              {
+                "id": "rpgpve:is_arrow",
+                "expected": false
+              }
+            ]
+          },
+          "source_entity": {
+            "type": "#rpgpve:has_health_bar"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "rpgpve:stats/damage/player/damaged"
+  }
+}

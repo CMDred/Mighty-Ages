@@ -1,0 +1,25 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "has_precipitation": false,
+  "temperature_modifier": "none",
+  "effects": {
+    "sky_color": 9660599,
+    "fog_color": 10357947,
+    "water_color": 11157144,
+    "water_fog_color": 5460863,
+    "grass_color": 6540490,
+    "foliage_color": 6136729,
+    "grass_color_modifier": "none",
+    "particle": {
+      "options": {
+        "type": "electric_spark"
+      },
+      "probability": 0.04
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}

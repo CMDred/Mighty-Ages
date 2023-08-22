@@ -1,0 +1,14 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/scute"
+    },
+    "overrides": [
+        {"predicate": {"custom_model_data": 1},"model": "rpgpve/empty"},
+        {"predicate": {"custom_model_data": 2},"model": "rpgpve/stone_spike"},
+        {"predicate": {"custom_model_data": 3},"model": "rpgpve/sculk_nugget"},
+        {"predicate": {"custom_model_data": 4},"model": "rpgpve/sculk_slime"},
+        {"predicate": {"custom_model_data": 5},"model": "rpgpve/freeze"},
+        {"predicate": {"custom_model_data": 6},"model": "rpgpve/purpur_nugget"}
+    ]
+}

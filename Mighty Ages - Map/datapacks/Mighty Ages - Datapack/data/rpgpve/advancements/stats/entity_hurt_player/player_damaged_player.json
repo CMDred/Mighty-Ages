@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "taken": {
+            "min": 0.91,
+            "max": 1.09
+          },
+          "type": {
+            "tags": [
+              {
+                "id": "rpgpve:is_player_attack",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "rpgpve:stats/damage/player/damaged"
+  }
+}

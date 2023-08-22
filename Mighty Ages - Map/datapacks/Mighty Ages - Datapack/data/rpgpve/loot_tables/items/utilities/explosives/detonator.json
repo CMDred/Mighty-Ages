@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:63,Unbreakable:1b,CustomModelData:4,RPG:{ItemType:\"Explosive\",Ability:\"Detonator\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name":             
+              [
+                {
+                  "text": "Detonator",
+                  "color": "#c94949",
+                  "bold": false,
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Shoot an explosive dealing good damage",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "after a random amount of time.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "(Between 3 and 5 seconds)",
+                  "color": "dark_gray",
+                  "italic": false
+                }
+              ],
+              "replace": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

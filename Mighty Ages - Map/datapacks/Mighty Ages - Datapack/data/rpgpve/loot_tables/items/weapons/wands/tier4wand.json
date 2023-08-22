@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:warped_fungus_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:12,Unbreakable:1b,HideFlags:63,RPG:{Ability:\"VoidWarden\",ManaCost:15,CastID:4,CastTime:10,Damage:152,DamageType:2,ItemType:\"Wand\",GoldCost:3400},display:{Lore:['[{\"text\":\"Damage Type: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Magical\",\"color\":\"light_purple\",\"italic\":false}]','{\"text\":\"Damage: 152\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"Mana Cost: 15\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Wand\",\"color\":\"light_purple\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Void Warden Staff\",\"color\":\"light_purple\",\"italic\":false}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

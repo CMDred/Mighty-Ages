@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:warped_fungus_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:11,Unbreakable:1b,HideFlags:63,RPG:{Ability:\"SculkSlime\",ManaCost:14,CastID:3,CastTime:10,Damage:125,DamageType:2,ItemType:\"Wand\",GoldCost:2850},display:{Lore:['[{\"text\":\"Damage Type: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Magical\",\"color\":\"light_purple\",\"italic\":false}]','{\"text\":\"Damage: 125\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"Mana Cost: 14\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Wand\",\"color\":\"blue\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Sculk Staff\",\"color\":\"blue\",\"italic\":false}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

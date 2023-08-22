@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wooden_sword",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Unbreakable:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.luck\",Amount:0.001,Slot:mainhand,Name:\"generic.luck\",UUID:[I;-12378,13555,195651,-27110]}],HideFlags:63,RPG:{GoldCost:50,Damage:18,DamageType:1,ItemType:\"Sword\"},display:{Lore:['{\"text\":\"Your piece of wood now looks\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"a bit more like a sword.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','[{\"text\":\"Damage Type: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Physical\",\"color\":\"red\",\"italic\":false}]','{\"text\":\"Damage: 18\",\"color\":\"dark_red\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Sword\",\"color\":\"yellow\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Wooden Blade\",\"color\":\"yellow\",\"italic\":false}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+

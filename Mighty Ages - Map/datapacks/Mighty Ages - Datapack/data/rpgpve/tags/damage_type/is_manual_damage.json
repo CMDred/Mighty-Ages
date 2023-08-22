@@ -1,0 +1,7 @@
+{
+  "values": [
+    "minecraft:bad_respawn_point",
+    "rpgpve:manual_damage",
+    "rpgpve:manual_damage_bypasses_cooldown"
+  ]
+}

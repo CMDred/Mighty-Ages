@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "shot": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "nbt" :"{Tags:[\"LavaBull\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "rpgpve:game/battle_wave/mini_bosses/lava_bull/killed"
+    }
+  }
+  

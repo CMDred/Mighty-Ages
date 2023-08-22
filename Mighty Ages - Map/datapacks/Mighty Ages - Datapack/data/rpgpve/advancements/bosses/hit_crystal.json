@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "shot": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "nbt" :"{Tags:[\"RegenCrystalInteraction\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "rpgpve:game/battle_wave/bosses/troll_bros/abilities/crystal/hit_advancement"
+    }
+  }
+  

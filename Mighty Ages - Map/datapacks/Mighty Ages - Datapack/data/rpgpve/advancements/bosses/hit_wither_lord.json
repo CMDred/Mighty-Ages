@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "shot": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "nbt" :"{Tags:[\"WitherBoss\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "rpgpve:game/battle_wave/bosses/wither_boss/hit"
+    }
+  }
+  

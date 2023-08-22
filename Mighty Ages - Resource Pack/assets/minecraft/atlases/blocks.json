@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {
+      "type": "directory",
+      "source": "rpgpve",
+      "prefix": "rpgpve/"
+    },
+    {
+      "type": "directory",
+      "source": "rpgpve/wands",
+      "prefix": "rpgpve/wands/"
+    }
+  ]
+}

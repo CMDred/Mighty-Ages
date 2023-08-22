@@ -1,0 +1,6 @@
+{
+    "parent": "rpgpve/npcs/parents/right_arm",
+	"textures": {
+		"0": "rpgpve/skins/banker"
+	}
+}

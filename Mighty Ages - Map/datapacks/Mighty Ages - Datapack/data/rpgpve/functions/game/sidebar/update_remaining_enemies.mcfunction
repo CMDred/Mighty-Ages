@@ -1,0 +1,2 @@
+execute store result storage rpgpve:sidebar RemainingEnemies.Count int 1 run scoreboard players get #MobsResting Temp
+function rpgpve:game/sidebar/remaining_enemies with storage rpgpve:sidebar RemainingEnemies

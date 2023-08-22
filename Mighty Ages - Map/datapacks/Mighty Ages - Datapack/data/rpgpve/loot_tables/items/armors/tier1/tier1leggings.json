@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "leather_leggings",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Unbreakable:1b,HideFlags:63,RPG:{PhysicDefense:9,ItemType:\"Armor\",GoldCost:15},display:{Lore:['{\"text\":\"Belongs to the leather set.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"It should protect you a small bit.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Defense: 15\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Armor\",\"color\":\"white\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Leather Leggings\",\"color\":\"white\",\"italic\":false}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

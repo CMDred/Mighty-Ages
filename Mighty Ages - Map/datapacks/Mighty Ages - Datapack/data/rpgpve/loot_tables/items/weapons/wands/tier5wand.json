@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:warped_fungus_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:13,Unbreakable:1b,HideFlags:63,RPG:{Ability:\"StormguardStaff\",ManaCost:16,CastID:5,CastTime:10,Damage:190,DamageType:2,ItemType:\"Wand\",GoldCost:3400},display:{Lore:['[{\"text\":\"Damage Type: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Magical\",\"color\":\"light_purple\",\"italic\":false}]','{\"text\":\"Damage: 190\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"Mana Cost: 16\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Wand\",\"color\":\"#ffe22a\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Stormguard Staff\",\"color\":\"#ffe22a\",\"italic\":false}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

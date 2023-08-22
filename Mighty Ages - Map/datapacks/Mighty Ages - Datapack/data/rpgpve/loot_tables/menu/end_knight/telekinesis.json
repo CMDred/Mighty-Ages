@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_eye",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:63,MenuItem:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name":             
+              [
+                {
+                  "text": "Gold Telekinesis",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Teleports gold directly",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "into your pouch, instead of it",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "dropping on the ground.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                }
+              ],
+              "replace": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

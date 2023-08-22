@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:0,Unbreakable:1b,HideFlags:63,RPG:{NotDefaultArrow:1b,ArrowID:2,Damage:15,ItemType:\"Arrow\",GoldCost:30},display:{Lore:['{\"text\":\" \"}','{\"text\":\"Arrow\",\"color\":\"black\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Withered Arrow\",\"color\":\"black\",\"italic\":false}'}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count" : 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/raw_gold"
+    },
+    "overrides": [
+        {"predicate": {"custom_model_data": 1},"model": "rpgpve/empty"},
+
+
+        {"predicate": {"custom_model_data": 10},"model": "rpgpve/npcs/body/archer"},
+        {"predicate": {"custom_model_data": 11},"model": "rpgpve/npcs/right_arm/archer"},
+        {"predicate": {"custom_model_data": 12},"model": "rpgpve/npcs/left_arm/archer"},
+        {"predicate": {"custom_model_data": 13},"model": "rpgpve/npcs/head/archer"},
+        {"predicate": {"custom_model_data": 14},"model": "rpgpve/npcs_undetailed/body/archer"},
+
+        {"predicate": {"custom_model_data": 15},"model": "rpgpve/npcs/body/armorsmith"},
+        {"predicate": {"custom_model_data": 16},"model": "rpgpve/npcs/right_arm/armorsmith"},
+        {"predicate": {"custom_model_data": 17},"model": "rpgpve/npcs/left_arm/armorsmith"},
+        {"predicate": {"custom_model_data": 18},"model": "rpgpve/npcs/head/armorsmith"},
+        {"predicate": {"custom_model_data": 19},"model": "rpgpve/npcs_undetailed/body/armorsmith"},
+
+        {"predicate": {"custom_model_data": 20},"model": "rpgpve/npcs/body/crimson_knight"},
+        {"predicate": {"custom_model_data": 21},"model": "rpgpve/npcs/right_arm/crimson_knight"},
+        {"predicate": {"custom_model_data": 22},"model": "rpgpve/npcs/left_arm/crimson_knight"},
+        {"predicate": {"custom_model_data": 23},"model": "rpgpve/npcs/head/crimson_knight"},
+        {"predicate": {"custom_model_data": 24},"model": "rpgpve/npcs_undetailed/body/crimson_knight"},
+
+        {"predicate": {"custom_model_data": 25},"model": "rpgpve/npcs/body/end_knight"},
+        {"predicate": {"custom_model_data": 26},"model": "rpgpve/npcs/right_arm/end_knight"},
+        {"predicate": {"custom_model_data": 27},"model": "rpgpve/npcs/left_arm/end_knight"},
+        {"predicate": {"custom_model_data": 28},"model": "rpgpve/npcs/head/end_knight"},
+        {"predicate": {"custom_model_data": 29},"model": "rpgpve/npcs_undetailed/body/end_knight"},
+
+        {"predicate": {"custom_model_data": 30},"model": "rpgpve/npcs/body/light_knight"},
+        {"predicate": {"custom_model_data": 31},"model": "rpgpve/npcs/right_arm/light_knight"},
+        {"predicate": {"custom_model_data": 32},"model": "rpgpve/npcs/left_arm/light_knight"},
+        {"predicate": {"custom_model_data": 33},"model": "rpgpve/npcs/head/light_knight"},
+        {"predicate": {"custom_model_data": 34},"model": "rpgpve/npcs_undetailed/body/light_knight"},
+
+        {"predicate": {"custom_model_data": 35},"model": "rpgpve/npcs/body/mage"},
+        {"predicate": {"custom_model_data": 36},"model": "rpgpve/npcs/right_arm/mage"},
+        {"predicate": {"custom_model_data": 37},"model": "rpgpve/npcs/left_arm/mage"},
+        {"predicate": {"custom_model_data": 38},"model": "rpgpve/npcs/head/mage"},
+        {"predicate": {"custom_model_data": 39},"model": "rpgpve/npcs_undetailed/body/mage"},
+
+        {"predicate": {"custom_model_data": 40},"model": "rpgpve/npcs/body/scientist"},
+        {"predicate": {"custom_model_data": 41},"model": "rpgpve/npcs/right_arm/scientist"},
+        {"predicate": {"custom_model_data": 42},"model": "rpgpve/npcs/left_arm/scientist"},
+        {"predicate": {"custom_model_data": 43},"model": "rpgpve/npcs/head/scientist"},
+        {"predicate": {"custom_model_data": 44},"model": "rpgpve/npcs_undetailed/body/scientist"},
+
+        {"predicate": {"custom_model_data": 45},"model": "rpgpve/npcs/body/traveller"},
+        {"predicate": {"custom_model_data": 46},"model": "rpgpve/npcs/right_arm/traveller"},
+        {"predicate": {"custom_model_data": 47},"model": "rpgpve/npcs/left_arm/traveller"},
+        {"predicate": {"custom_model_data": 48},"model": "rpgpve/npcs/head/traveller"},
+        {"predicate": {"custom_model_data": 49},"model": "rpgpve/npcs_undetailed/body/traveller"},
+        
+        {"predicate": {"custom_model_data": 50},"model": "rpgpve/npcs/body/banker"},
+        {"predicate": {"custom_model_data": 51},"model": "rpgpve/npcs/right_arm/banker"},
+        {"predicate": {"custom_model_data": 52},"model": "rpgpve/npcs/left_arm/banker"},
+        {"predicate": {"custom_model_data": 53},"model": "rpgpve/npcs/head/banker"},
+        {"predicate": {"custom_model_data": 54},"model": "rpgpve/npcs_undetailed/body/banker"},
+
+        {"predicate": {"custom_model_data": 55},"model": "rpgpve/npcs/body/weaponsmith"},
+        {"predicate": {"custom_model_data": 56},"model": "rpgpve/npcs/right_arm/weaponsmith"},
+        {"predicate": {"custom_model_data": 57},"model": "rpgpve/npcs/left_arm/weaponsmith"},
+        {"predicate": {"custom_model_data": 58},"model": "rpgpve/npcs/head/weaponsmith"},
+        {"predicate": {"custom_model_data": 59},"model": "rpgpve/npcs_undetailed/body/weaponsmith"},
+
+        {"predicate": {"custom_model_data": 60},"model": "rpgpve/npcs/body/witch"},
+        {"predicate": {"custom_model_data": 61},"model": "rpgpve/npcs/right_arm/witch"},
+        {"predicate": {"custom_model_data": 62},"model": "rpgpve/npcs/left_arm/witch"},
+        {"predicate": {"custom_model_data": 63},"model": "rpgpve/npcs/head/witch"},
+        {"predicate": {"custom_model_data": 64},"model": "rpgpve/npcs_undetailed/body/witch"}
+
+    ]
+}

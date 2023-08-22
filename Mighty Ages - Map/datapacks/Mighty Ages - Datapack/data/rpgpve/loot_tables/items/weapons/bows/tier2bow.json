@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "bow",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Unbreakable:1b,HideFlags:63,RPG:{Damage:42,DamageType:1,ItemType:\"Bow\",GoldCost:320},display:{Lore:['{\"text\":\"This looks more like a bow. It is able\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"to shoot arrows easily, dealing some damage.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','[{\"text\":\"Damage Type: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Physical\",\"color\":\"red\",\"italic\":false}]','{\"text\":\"Damage: 42\",\"color\":\"dark_red\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Bow\",\"color\":\"white\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Shortbow\",\"color\":\"white\",\"italic\":false}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

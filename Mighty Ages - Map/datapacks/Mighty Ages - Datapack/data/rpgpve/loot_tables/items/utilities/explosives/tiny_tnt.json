@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:63,Unbreakable:1b,CustomModelData:3,RPG:{ItemType:\"Explosive\",Ability:\"TinyTNT\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name":             
+              [
+                {
+                  "text": "Tiny Tnt",
+                  "color": "#ff9999",
+                  "bold": false,
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Shoot a tnt dealing some damage",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "after 4 seconds around where it lands.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "replace": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

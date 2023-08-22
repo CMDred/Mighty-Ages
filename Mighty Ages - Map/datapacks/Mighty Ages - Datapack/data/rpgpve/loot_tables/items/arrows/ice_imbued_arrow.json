@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:7652351,Unbreakable:1b,HideFlags:63,RPG:{NotDefaultArrow:1b,ArrowID:5,ItemType:\"Arrow\",GoldCost:32},display:{Lore:['{\"text\":\" \"}','{\"text\":\"Arrow\",\"color\":\"#74c3ff\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Ice-Imbued Arrow\",\"color\":\"#74c3ff\",\"italic\":false}'}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count" : 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

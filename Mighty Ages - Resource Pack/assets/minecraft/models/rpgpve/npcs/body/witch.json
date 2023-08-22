@@ -1,0 +1,6 @@
+{
+    "parent": "rpgpve/npcs/parents/body",
+	"textures": {
+		"0": "rpgpve/skins/witch"
+	}
+}

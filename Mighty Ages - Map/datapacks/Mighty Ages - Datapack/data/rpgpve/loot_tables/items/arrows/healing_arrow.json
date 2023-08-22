@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:15204352,Unbreakable:1b,HideFlags:63,RPG:{NotDefaultArrow:1b,ArrowID:4,ItemType:\"Arrow\",GoldCost:60},display:{Lore:['{\"text\":\"Shoot on your teammate!\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Heal: 15%\",\"color\":\"red\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Arrow\",\"color\":\"#E80000\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Healing Arrow\",\"color\":\"#E80000\",\"italic\":false}'}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count" : 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "bow",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Unbreakable:1b,HideFlags:63,RPG:{Damage:140,DamageType:1,ItemType:\"Bow\",GoldCost:1600},display:{Lore:['{\"text\":\"The archers of the Golden\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Order used this bow long ago.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','[{\"text\":\"Damage Type: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Physical\",\"color\":\"red\",\"italic\":false}]','{\"text\":\"Damage: 140\",\"color\":\"dark_red\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Bow\",\"color\":\"red\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Golden Bow\",\"color\":\"red\",\"italic\":false}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,17 @@
+{
+    "music.wave.preparation": {
+        "sounds": [
+            "custom/music/prep_wave"
+        ]
+    },
+    "music.wave.battle": {
+        "sounds": [
+            "custom/music/battle_wave"
+        ]
+    },
+    "music.wave.boss": {
+        "sounds": [
+            "custom/music/boss_wave"
+        ]
+    }
+}

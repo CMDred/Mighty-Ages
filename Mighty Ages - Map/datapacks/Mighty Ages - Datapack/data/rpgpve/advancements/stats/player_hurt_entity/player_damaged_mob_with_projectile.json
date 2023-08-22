@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "#rpgpve:has_health_bar"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "rpgpve:stats/damage/mob/player_hurt_mob/shot"
+  }
+}

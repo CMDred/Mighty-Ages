@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "rpgpve/wands/mage_stick"
+    }
+}

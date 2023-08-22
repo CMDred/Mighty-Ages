@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "shot": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "nbt" :"{Tags:[\"AngryGolem\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "rpgpve:game/battle_wave/mini_bosses/angry_golem/killed"
+    }
+  }
+  

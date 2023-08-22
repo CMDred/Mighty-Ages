@@ -1,0 +1,10 @@
+execute at @s run playsound entity.lightning_bolt.thunder master @a[distance=0..] ~ ~ ~ 1 1 0 
+execute store result score #RandomMessage Temp run random value 1..3
+
+execute if score #RandomMessage Temp matches 1 on attacker if entity @s[type=player] run tellraw @a[tag=IsInRPGPVEGame] ["",{"selector":"@p[tag=NewDead]","color":"gold"},{"text":" burnt to death while escaping ","color":"yellow"},{"selector":"@s","color":"gold"},{"text":".","color":"yellow"}]
+execute if score #RandomMessage Temp matches 2 on attacker if entity @s[type=player] run tellraw @a[tag=IsInRPGPVEGame] ["",{"selector":"@p[tag=NewDead]","color":"gold"},{"text":" fell victim to ","color":"yellow"},{"selector":"@s","color":"gold"},{"text":"'s fiery strategies.","color":"yellow"}]
+execute if score #RandomMessage Temp matches 3 on attacker if entity @s[type=player] run tellraw @a[tag=IsInRPGPVEGame] ["",{"selector":"@s","color":"gold"},{"text":"'s fire ended ","color":"yellow"},{"selector":"@p[tag=NewDead]","color":"gold"},{"text":".","color":"yellow"}]
+
+execute if score #RandomMessage Temp matches 1 on attacker if entity @s[type=!player] run tellraw @a[tag=IsInRPGPVEGame] ["",{"selector":"@p[tag=NewDead]","color":"gold"},{"text":" burnt to death while escaping ","color":"yellow"},{"nbt":"ArmorItems[3].tag.MobName","entity":"@s","interpret":true,"color":"gold"},{"text":".","color":"yellow"}]
+execute if score #RandomMessage Temp matches 2 on attacker if entity @s[type=!player] run tellraw @a[tag=IsInRPGPVEGame] ["",{"selector":"@p[tag=NewDead]","color":"gold"},{"text":" fell victim to ","color":"yellow"},{"nbt":"ArmorItems[3].tag.MobName","entity":"@s","interpret":true,"color":"gold"},{"text":"'s fiery strategies.","color":"yellow"}]
+execute if score #RandomMessage Temp matches 3 on attacker if entity @s[type=!player] run tellraw @a[tag=IsInRPGPVEGame] ["",{"nbt":"ArmorItems[3].tag.MobName","entity":"@s","interpret":true,"color":"gold"},{"text":"'s fire ended ","color":"yellow"},{"selector":"@p[tag=NewDead]","color":"gold"},{"text":".","color":"yellow"}]

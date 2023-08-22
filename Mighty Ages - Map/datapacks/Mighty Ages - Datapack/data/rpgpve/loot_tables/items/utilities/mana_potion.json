@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:63,Unbreakable:1b,custom_potion_effects:[{id:\"minecraft:unluck\",duration:100}],CustomPotionColor:1187832}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name":             
+              [
+                {
+                  "text": "Skill Point Splash Potion",
+                  "color": "#1c13d4",
+                  "bold": false,
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "Regenerates",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " 30%",
+                    "color": "#1c13d4",
+                    "italic": false
+                  },
+                  {
+                    "text": " of Max Skill Point. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "If the 2 players are affected",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "at the same time, it goes to 75%.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "replace": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

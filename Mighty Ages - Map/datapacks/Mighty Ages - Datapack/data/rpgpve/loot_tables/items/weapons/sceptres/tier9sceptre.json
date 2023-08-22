@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_shovel",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Unbreakable:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.luck\",Amount:0.001,Slot:mainhand,Name:\"generic.luck\",UUID:[I;-12348,12675,155451,-27110]}],HideFlags:63,RPG:{ManaCost:25,Damage:216,DamageType:2,ItemType:\"Sceptre\",GoldCost:2900},display:{Lore:['[{\"text\":\"Damage Type: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Magical\",\"color\":\"light_purple\",\"italic\":false}]','{\"text\":\"Damage: 216\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"Mana Cost: 25\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Sceptre\",\"color\":\"#3edb74\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Sculk Sceptre\",\"color\":\"#3edb74\",\"italic\":false}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

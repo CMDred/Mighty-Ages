@@ -1,0 +1,105 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+      "layer0": "minecraft:item/warped_fungus_on_a_stick"
+    },
+    "overrides": [
+      {
+        "predicate": {
+          "custom_model_data": 1
+        },
+        "model": "minecraft:item/lantern"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 2
+        },
+        "model": "minecraft:item/soul_lantern"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 3
+        },
+        "model": "minecraft:head_items/tiny_tnt"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 4
+        },
+        "model": "minecraft:head_items/explosives"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 5
+        },
+        "model": "minecraft:head_items/rocket"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 6
+        },
+        "model": "minecraft:item/iron_sword"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 7
+        },
+        "model": "minecraft:item/gold_ingot"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 8
+        },
+        "model": "minecraft:rpgpve/mob_staff"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 9
+        },
+        "model": "minecraft:rpgpve/wands/glowing_branch"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 10
+        },
+        "model": "minecraft:rpgpve/wands/mage_stick"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 11
+        },
+        "model": "minecraft:rpgpve/wands/sculk_staff"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 12
+        },
+        "model": "minecraft:rpgpve/wands/void_warden_staff"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 13
+        },
+        "model": "minecraft:rpgpve/wands/stormguard_staff"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 14
+        },
+        "model": "minecraft:rpgpve/wands/stalk_of_truth"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 15
+        },
+        "model": "minecraft:rpgpve/wands/catastrophe"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 16
+        },
+        "model": "minecraft:rpgpve/wands/oblivion"
+      }
+    ]
+  }
+  

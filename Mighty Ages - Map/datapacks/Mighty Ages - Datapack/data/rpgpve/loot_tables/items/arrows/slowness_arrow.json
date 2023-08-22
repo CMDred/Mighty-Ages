@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:2435911,Unbreakable:1b,HideFlags:63,RPG:{NotDefaultArrow:1b,ArrowID:1,Damage:15,ItemType:\"Arrow\",GoldCost:30},display:{Lore:['{\"text\":\" \"}','{\"text\":\"Arrow\",\"color\":\"#252B47\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Slowness Arrow\",\"color\":\"#252B47\",\"italic\":false}'}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count" : 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

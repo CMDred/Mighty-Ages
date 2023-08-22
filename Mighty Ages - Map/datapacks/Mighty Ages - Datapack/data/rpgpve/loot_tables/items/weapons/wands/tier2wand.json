@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:warped_fungus_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:10,Unbreakable:1b,HideFlags:63,RPG:{Ability:\"MageStick\",ManaCost:12,CastID:2,CastTime:10,Damage:100,DamageType:2,ItemType:\"Wand\",GoldCost:2400},display:{Lore:['[{\"text\":\"Damage Type: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Magical\",\"color\":\"light_purple\",\"italic\":false}]','{\"text\":\"Damage: 100\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"Mana Cost: 12\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Wand\",\"color\":\"dark_aqua\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Mage Stick\",\"color\":\"dark_aqua\",\"italic\":false}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
