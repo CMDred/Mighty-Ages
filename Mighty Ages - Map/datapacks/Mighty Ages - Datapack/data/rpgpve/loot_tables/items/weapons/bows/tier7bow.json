@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Unbreakable:1b,HideFlags:63,RPG:{Ability:\"Punch\",Damage:250,DamageType:1,ItemType:\"Bow\",GoldCost:3500},display:{Lore:['{\"text\":\"Fell from the heavens.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','[{\"text\":\"Damage Type: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Physical\",\"color\":\"red\",\"italic\":false}]','{\"text\":\"Damage: 230\",\"color\":\"dark_red\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Bow\",\"color\":\"blue\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Diamond Celeste Bow\",\"color\":\"blue\",\"italic\":false}'}}"
+              "tag": "{PreventDrop:1b,Unbreakable:1b,HideFlags:63,RPG:{Ability:\"Punch\",Damage:250,DamageType:1,ItemType:\"Bow\",GoldCost:3500},display:{Lore:['{\"text\":\"Fell from the heavens.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','[{\"text\":\"Damage Type: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Physical\",\"color\":\"red\",\"italic\":false}]','{\"text\":\"Damage: 230\",\"color\":\"dark_red\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Bow\",\"color\":\"blue\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Diamond Celeste Bow\",\"color\":\"blue\",\"italic\":false}'}}"
             }
           ]
         }

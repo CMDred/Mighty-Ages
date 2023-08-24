@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:14,Unbreakable:1b,HideFlags:63,RPG:{Ability:\"StalkOfTruth\",ManaCost:17,CastID:6,CastTime:10,Damage:215,DamageType:2,ItemType:\"Wand\",GoldCost:5000},display:{Lore:['[{\"text\":\"Damage Type: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Magical\",\"color\":\"light_purple\",\"italic\":false}]','{\"text\":\"Damage: 215\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"Mana Cost: 17\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Wand\",\"color\":\"#3edb74\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Stalk of Truth\",\"color\":\"#3edb74\",\"italic\":false}'}}"
+                "tag": "{PreventDrop:1b,CustomModelData:14,Unbreakable:1b,HideFlags:63,RPG:{Ability:\"StalkOfTruth\",ManaCost:17,CastID:6,CastTime:10,Damage:215,DamageType:2,ItemType:\"Wand\",GoldCost:5000},display:{Lore:['[{\"text\":\"Damage Type: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Magical\",\"color\":\"light_purple\",\"italic\":false}]','{\"text\":\"Damage: 215\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"Mana Cost: 17\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Wand\",\"color\":\"#3edb74\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Stalk of Truth\",\"color\":\"#3edb74\",\"italic\":false}'}}"
               }
             ]
           }

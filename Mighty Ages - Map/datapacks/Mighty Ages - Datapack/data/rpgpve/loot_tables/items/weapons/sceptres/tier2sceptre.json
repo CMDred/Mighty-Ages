@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{Unbreakable:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.luck\",Amount:0.001,Slot:mainhand,Name:\"generic.luck\",UUID:[I;-12348,12675,155451,-27110]}],HideFlags:63,RPG:{ManaCost:10,Damage:72,DamageType:2,ItemType:\"Sceptre\",GoldCost:1000},display:{Lore:['[{\"text\":\"Damage Type: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Magical\",\"color\":\"light_purple\",\"italic\":false}]','{\"text\":\"Damage: 72\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"Mana Cost: 10\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Sceptre\",\"color\":\"aqua\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Livingwood Sceptre\",\"color\":\"aqua\",\"italic\":false}'}}"
+                "tag": "{PreventDrop:1b,Unbreakable:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.luck\",Amount:0.001,Slot:mainhand,Name:\"generic.luck\",UUID:[I;-12348,12675,155451,-27110]}],HideFlags:63,RPG:{ManaCost:10,Damage:72,DamageType:2,ItemType:\"Sceptre\",GoldCost:1000},display:{Lore:['[{\"text\":\"Damage Type: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Magical\",\"color\":\"light_purple\",\"italic\":false}]','{\"text\":\"Damage: 72\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"Mana Cost: 10\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Sceptre\",\"color\":\"aqua\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Livingwood Sceptre\",\"color\":\"aqua\",\"italic\":false}'}}"
               }
             ]
           }

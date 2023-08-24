@@ -44,5 +44,5 @@ execute unless score @s PhysicRangedPurchased matches 1 in minecraft:overworld r
 execute if entity @s[tag=SculkSlime] run data modify entity @e[type=armor_stand,tag=SculkSlimeTexture,sort=nearest,limit=1] CustomName set from entity @s CustomName
 #-----------------RESET------------------#
 tag @s remove EditingMob
-#execute in minecraft:overworld run setblock 700000 1 700000 minecraft:air
+execute in minecraft:overworld run setblock 700000 1 700000 minecraft:air
 #----------------------------------------#

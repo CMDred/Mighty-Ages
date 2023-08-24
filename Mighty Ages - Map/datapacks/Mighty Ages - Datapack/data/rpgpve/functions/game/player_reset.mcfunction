@@ -43,6 +43,8 @@ scoreboard players set @s SpeedCost 120
 scoreboard players set @s ShieldCost 200
 scoreboard players set @s TotemOfUndyingCost 500
 
+xp set @s 0 levels
+xp set @s 0 points
 
 tag @s remove Eliminated
 

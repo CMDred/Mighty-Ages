@@ -19,6 +19,9 @@ function rpgpve:game/sidebar/show
 # Kill npcs that come later
 execute in rpgpve:rpgpve_game run schedule function rpgpve:game/start_game/reload_npcs 2t
 
+# Records
+function rpgpve:game/records/reset
+
 # Game State 
 # INFO :
 # 0 = No game playing 

@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{Unbreakable:1b,HideFlags:63,RPG:{PhysicDefense:14,ItemType:\"Armor\",GoldCost:26},display:{Lore:['{\"text\":\"Belongs to the Chainmail set.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"The small holes in the armor sure are\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"a downside, but the iron\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"used in it is very resistant.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Defense: 14\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Armor\",\"color\":\"yellow\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Chainmail Boots\",\"color\":\"yellow\",\"italic\":false}'}}"
+                "tag": "{PreventDrop:1b,Unbreakable:1b,HideFlags:63,RPG:{PhysicDefense:14,ItemType:\"Armor\",GoldCost:26},display:{Lore:['{\"text\":\"Belongs to the Chainmail set.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"The small holes in the armor sure are\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"a downside, but the iron\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"used in it is very resistant.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Defense: 14\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Armor\",\"color\":\"yellow\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Chainmail Boots\",\"color\":\"yellow\",\"italic\":false}'}}"
               }
             ]
           }

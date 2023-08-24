@@ -342,7 +342,7 @@
                     "italic": false
                   },
                   {
-                    "text": "HP/s",
+                    "text": " HP/s",
                     "color": "red",
                     "italic": false
                   }
@@ -394,7 +394,7 @@
                     "italic": false
                   },
                   {
-                    "text": "HP/s",
+                    "text": " HP/s",
                     "color": "red",
                     "italic": false
                   }
@@ -446,7 +446,7 @@
                     "italic": false
                   },
                   {
-                    "text": "SP/s",
+                    "text": " SP/s",
                     "color": "blue",
                     "italic": false
                   }
@@ -498,7 +498,7 @@
                     "italic": false
                   },
                   {
-                    "text": "SP/s",
+                    "text": " SP/s",
                     "color": "blue",
                     "italic": false
                   }

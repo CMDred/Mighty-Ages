@@ -25,7 +25,7 @@ execute as @e[type=#rpgpve:monster_or_player,scores={IceArrowFreezeTime=1}] at @
 execute as @e[type=armor_stand,tag=Freeze] at @s unless entity @e[type=#rpgpve:has_health_bar,tag=RPGPVEMob,distance=..2] run kill @s
 
 # mini bosses name
-execute as @e[type=#rpgpve:has_health_bar,tag=MiniBoss] at @s anchored eyes run tp @e[type=armor_stand,tag=MiniBossName] ~ ~3.1 ~
+execute as @e[type=#rpgpve:has_health_bar,tag=MiniBoss] at @s anchored eyes positioned ^ ^ ^ run tp @e[type=text_display,tag=MiniBossName] ~ ~1 ~
 
 execute if score #CurrentBattleWave Temp matches 20..29 run function rpgpve:game/battle_wave/main_magic
 execute if score #CurrentBattleWave Temp matches 40..50 run function rpgpve:game/battle_wave/main_end

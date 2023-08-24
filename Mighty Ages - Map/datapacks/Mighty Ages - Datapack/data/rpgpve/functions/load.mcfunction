@@ -40,7 +40,7 @@ scoreboard objectives add ShootCrossbow minecraft.used:minecraft.crossbow
 scoreboard objectives add Walk minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add Sprint minecraft.custom:minecraft.sprint_one_cm
 
-scoreboard objectives add DamageTaken dummy
+scoreboard objectives add DamageTaken custom:damage_resisted
 scoreboard objectives add DamageType dummy
 
 scoreboard objectives add UUID0 dummy
@@ -49,6 +49,8 @@ scoreboard objectives add UUID2 dummy
 scoreboard objectives add UUID3 dummy
 
 scoreboard objectives add PlayerID dummy
+scoreboard objectives add JoinGame minecraft.custom:leave_game
+
 scoreboard objectives add BowUsed minecraft.used:minecraft.bow
 
 scoreboard objectives add Constant dummy

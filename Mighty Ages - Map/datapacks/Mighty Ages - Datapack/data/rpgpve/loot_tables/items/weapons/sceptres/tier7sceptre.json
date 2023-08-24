@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{Unbreakable:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.luck\",Amount:0.001,Slot:mainhand,Name:\"generic.luck\",UUID:[I;-12348,12675,155451,-27110]}],HideFlags:63,RPG:{ManaCost:20,Damage:176,DamageType:2,ItemType:\"Sceptre\",GoldCost:2250},display:{Lore:['[{\"text\":\"Damage Type: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Magical\",\"color\":\"light_purple\",\"italic\":false}]','{\"text\":\"Damage: 176\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"Mana Cost: 20\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Sceptre\",\"color\":\"light_purple\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Golden Shaman Sceptre\",\"color\":\"light_purple\",\"italic\":false}'}}"
+                "tag": "{PreventDrop:1b,Unbreakable:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.luck\",Amount:0.001,Slot:mainhand,Name:\"generic.luck\",UUID:[I;-12348,12675,155451,-27110]}],HideFlags:63,RPG:{ManaCost:20,Damage:176,DamageType:2,ItemType:\"Sceptre\",GoldCost:2250},display:{Lore:['[{\"text\":\"Damage Type: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Magical\",\"color\":\"light_purple\",\"italic\":false}]','{\"text\":\"Damage: 176\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"Mana Cost: 20\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Sceptre\",\"color\":\"light_purple\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Golden Shaman Sceptre\",\"color\":\"light_purple\",\"italic\":false}'}}"
               }
             ]
           }

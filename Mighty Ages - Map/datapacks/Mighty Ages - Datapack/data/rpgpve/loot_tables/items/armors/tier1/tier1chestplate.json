@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{Unbreakable:1b,HideFlags:63,RPG:{PhysicDefense:10,ItemType:\"Armor\",GoldCost:18},display:{Lore:['{\"text\":\"Belongs to the leather set.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"It should protect you a small bit.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Defense: 10\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Armor\",\"color\":\"white\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Leather Chestplate\",\"color\":\"white\",\"italic\":false}'}}"
+                "tag": "{PreventDrop:1b,Unbreakable:1b,HideFlags:63,RPG:{PhysicDefense:10,ItemType:\"Armor\",GoldCost:18},display:{Lore:['{\"text\":\"Belongs to the leather set.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"It should protect you a small bit.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Defense: 10\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Armor\",\"color\":\"white\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Leather Chestplate\",\"color\":\"white\",\"italic\":false}'}}"
               }
             ]
           }

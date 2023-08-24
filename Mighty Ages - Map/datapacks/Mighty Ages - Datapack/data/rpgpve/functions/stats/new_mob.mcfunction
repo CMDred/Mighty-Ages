@@ -38,11 +38,11 @@ execute if score @s Health matches ..0 run scoreboard players set @s Health 0
 scoreboard players operation #HealthBar Health = @s Health
 scoreboard players operation #HealthBar MaxHealth = @s MaxHealth
 data modify storage rpgpve:health_bar Name set from entity @s ArmorItems[3].tag
-execute unless score @s PhysicRangedPurchased matches 1 run data modify entity @s CustomNameVisible set value 1b
 execute if entity @s[tag=!Boss] run function rpgpve:stats/health_bar/update
 #------------------RESET-------------------#
 effect give @s resistance infinite 4 true
-data merge entity @s {Health:5f,Attributes:[{Name:"minecraft:generic.max_health",Base:5}],CustomNameVisible:1b,ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],HandDropChances:[0.000F,0.000F]}
+execute unless score @s PhysicRangedPurchased matches 1 run data merge entity @s {Health:5f,Attributes:[{Name:"minecraft:generic.max_health",Base:5}],CustomNameVisible:1b,ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],HandDropChances:[0.000F,0.000F]}
+execute if score @s PhysicRangedPurchased matches 1 run data merge entity @s {CustomName:'{"text":""}',Health:5f,Attributes:[{Name:"minecraft:generic.max_health",Base:5}],CustomNameVisible:0b,ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],HandDropChances:[0.000F,0.000F]}
 tag @s remove EditingMob
 tag @s add Registered
 #------------------------------------------#

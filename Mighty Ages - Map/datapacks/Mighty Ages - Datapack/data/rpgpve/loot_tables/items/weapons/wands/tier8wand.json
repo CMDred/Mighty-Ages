@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:16,Unbreakable:1b,HideFlags:63,RPG:{Ability:\"Oblivion\",ManaCost:23,CastID:8,CastTime:10,Damage:360,DamageType:2,ItemType:\"Wand\",GoldCost:9000},display:{Lore:['[{\"text\":\"Damage Type: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Magical\",\"color\":\"light_purple\",\"italic\":false}]','{\"text\":\"Damage: 360\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"Mana Cost: 23\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Wand\",\"color\":\"gold\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Oblivion\",\"color\":\"gold\",\"italic\":false}'}}"
+              "tag": "{PreventDrop:1b,CustomModelData:16,Unbreakable:1b,HideFlags:63,RPG:{Ability:\"Oblivion\",ManaCost:23,CastID:8,CastTime:10,Damage:360,DamageType:2,ItemType:\"Wand\",GoldCost:9000},display:{Lore:['[{\"text\":\"Damage Type: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Magical\",\"color\":\"light_purple\",\"italic\":false}]','{\"text\":\"Damage: 360\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"Mana Cost: 23\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Wand\",\"color\":\"gold\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Oblivion\",\"color\":\"gold\",\"italic\":false}'}}"
             }
           ]
         }

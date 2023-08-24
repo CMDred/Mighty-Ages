@@ -58,7 +58,7 @@ clear @a[tag=IsInRPGPVEGame] shield
 effect clear @a[tag=IsInRPGPVEGame] speed
 effect clear @a[tag=IsInRPGPVEGame] fire_resistance
 
-effect give @a[tag=IsInRPGPVEGame,tag=!Eliminated] minecraft:speed 999999 1 true
+effect give @a[tag=IsInRPGPVEGame,tag=!Eliminated] minecraft:speed infinite 1 true
 
 # Unlock Tellraws
 execute as @a[tag=IsInRPGPVEGame] at @s run function rpgpve:game/preparation_wave/unlock_tellraws
@@ -66,6 +66,10 @@ execute in rpgpve:rpgpve_game run schedule function rpgpve:game/start_game/reloa
 
 # Minecarts
 execute in rpgpve:rpgpve_game if score #CurrentBattleWave Temp matches 30..39 run function rpgpve:game/minecarts/summons
+
+# Records
+function rpgpve:game/records/highest_melee/announce
+function rpgpve:game/records/longest_bow_shot/announce
 
 # Game End
 # execute if score #CurrentBattleWave Temp matches 50 run schedule function rpgpve:game/end_game 60s replace

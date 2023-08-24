@@ -3,7 +3,7 @@
 #       Don't claim as own work          #
 #========================================#
 #------------CREATE INSTANCE-------------#
-execute if entity @a[tag=HostingRPGPVE] run function rpgpve:game/host_fail
-execute unless entity @a[tag=HostingRPGPVE] run function rpgpve:game/host_success
 scoreboard players reset @s HostRPGPVEGame
+execute if score #GameHosted Temp matches 1 run function rpgpve:game/host_fail
+execute unless score #GameHosted Temp matches 1 run function rpgpve:game/host_success
 #----------------------------------------#

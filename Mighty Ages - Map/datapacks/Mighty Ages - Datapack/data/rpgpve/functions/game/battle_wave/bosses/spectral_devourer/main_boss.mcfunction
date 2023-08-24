@@ -13,8 +13,8 @@ execute if entity @s[tag=!DarkShield,tag=VoidShield] run particle dust 0.541 0 0
 # Shield & Minions
 execute if score #BossSpawned Temp matches 1 run scoreboard players add @s[tag=!VoidShield,tag=!DarkShield] Attack1Timer 1
 execute if score @s Attack1Timer >= @s Attack1Delay at @s positioned ~ ~5 ~ run function rpgpve:game/battle_wave/bosses/spectral_devourer/shields/activate
-execute as @e[type=armor_stand,tag=SDMinionEgg] run function rpgpve:game/battle_wave/bosses/spectral_devourer/shields/egg_main
-execute as @e[type=armor_stand,tag=SDDamageOrb] run function rpgpve:game/battle_wave/bosses/spectral_devourer/shields/orb_main
+execute as @e[type=armor_stand,tag=SDMinionEgg] at @s run function rpgpve:game/battle_wave/bosses/spectral_devourer/shields/egg_main
+execute as @e[type=armor_stand,tag=SDDamageOrb] at @s run function rpgpve:game/battle_wave/bosses/spectral_devourer/shields/orb_main
 
 # Triangle
 scoreboard players add @s[tag=!MakingTriangle,tag=!CastTriangle] Attack2Timer 1
@@ -23,17 +23,9 @@ execute if entity @s[tag=MakingTriangle] run tp @s ~ ~ ~ facing entity @a[tag=Tr
 execute if score @s[tag=MakingTriangle] AnvilCooldown matches 1.. run scoreboard players remove @s AnvilCooldown 1
 execute if score @s[tag=MakingTriangle] AnvilCooldown matches 1 run function rpgpve:game/battle_wave/bosses/spectral_devourer/death_triangle/teleport
 
-execute as @e[type=marker,tag=TrianglePoint] at @s run function rpgpve:game/battle_wave/bosses/spectral_devourer/death_triangle/draw_triangle
+execute as @e[type=marker,tag=TrianglePoint,limit=3] at @s run function rpgpve:game/battle_wave/bosses/spectral_devourer/death_triangle/draw_triangle
 
-execute if score @s[tag=CastTriangle] CastCD matches 1.. run scoreboard players remove @s CastCD 1
-execute if score @s[tag=CastTriangle] CastCD matches 120 as @e[type=marker,tag=TrianglePoint] at @s run function rpgpve:game/battle_wave/bosses/spectral_devourer/death_triangle/damage
-execute if score @s[tag=CastTriangle] CastCD matches 100 as @e[type=marker,tag=TrianglePoint] at @s run function rpgpve:game/battle_wave/bosses/spectral_devourer/death_triangle/damage
-execute if score @s[tag=CastTriangle] CastCD matches 80 as @e[type=marker,tag=TrianglePoint] at @s run function rpgpve:game/battle_wave/bosses/spectral_devourer/death_triangle/damage
-execute if score @s[tag=CastTriangle] CastCD matches 60 as @e[type=marker,tag=TrianglePoint] at @s run function rpgpve:game/battle_wave/bosses/spectral_devourer/death_triangle/damage_before_final
-execute if score @s[tag=CastTriangle] CastCD matches 2 as @e[type=marker,tag=TrianglePoint] at @s run function rpgpve:game/battle_wave/bosses/spectral_devourer/death_triangle/damage_final
-execute if score @s[tag=CastTriangle] CastCD matches 1 run tag @e remove TriangleTarget
-execute if score @s[tag=CastTriangle] CastCD matches 1 run kill @e[type=marker,tag=TrianglePoint]
-execute if score @s[tag=CastTriangle] CastCD matches 1 run tag @s remove CastTriangle
+execute if score @s[tag=CastTriangle] CastCD matches 1.. run function rpgpve:game/battle_wave/bosses/spectral_devourer/death_triangle/damages
 
 # Ambient Sound
 execute if score @s Date matches 1.. run scoreboard players remove @s Date 1

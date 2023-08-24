@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{Unbreakable:1b,HideFlags:63,RPG:{PhysicDefense:72,ItemType:\"Armor\",GoldCost:710},display:{Lore:['{\"text\":\"Long ago, during the Falling,\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"lots of meteors fell from space.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"People have then found\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"shiny rocks in the craters\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"of these meteors.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Defense: 72\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Armor\",\"color\":\"blue\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Star Diamond Helmet\",\"color\":\"blue\",\"italic\":false}'}}"
+                "tag": "{PreventDrop:1b,Unbreakable:1b,HideFlags:63,RPG:{PhysicDefense:72,ItemType:\"Armor\",GoldCost:710},display:{Lore:['{\"text\":\"Long ago, during the Falling,\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"lots of meteors fell from space.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"People have then found\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"shiny rocks in the craters\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"of these meteors.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Defense: 72\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Armor\",\"color\":\"blue\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Star Diamond Helmet\",\"color\":\"blue\",\"italic\":false}'}}"
               }
             ]
           }

@@ -7,6 +7,6 @@
 function rpgpve:npcs/npc_list/summon
 execute positioned ~ ~1.7 ~ run scoreboard players set @e[type=armor_stand,limit=1,sort=nearest,tag=PlayerNPC] NPC_Skin 6
 execute positioned ~ ~1.7 ~ run data modify entity @e[type=armor_stand,limit=1,sort=nearest,tag=PlayerNPC] CustomName set value '{"text":"Light Knight","color":"white"}'
-execute positioned ~ ~1.7 ~ run data modify entity @e[type=armor_stand,limit=1,sort=nearest,tag=NPCClick] CustomName set value '{"text":"Click to view Permanent Upgrades!","color":"gray","underlined":true}'
-scoreboard players set @e[type=armor_stand,tag=LookMenuAS,sort=nearest,limit=1] M_LookMenuPage 8
+execute positioned ~ ~1.7 ~ run data modify entity @e[type=text_display,tag=NPCClick,limit=1,sort=nearest] text set value '{"text":"Click to view Permanent Upgrades!","color":"gray","underlined":true}'
+scoreboard players set @e[type=marker,tag=LookMenuAS,sort=nearest,limit=1] M_LookMenuPage 8
 #------------------------------------------#

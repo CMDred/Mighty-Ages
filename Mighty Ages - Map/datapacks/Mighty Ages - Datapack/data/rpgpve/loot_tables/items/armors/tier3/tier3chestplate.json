@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{Unbreakable:1b,HideFlags:63,RPG:{PhysicDefense:48,ItemType:\"Armor\",GoldCost:240},display:{Lore:['{\"text\":\"Piece of the Iron set.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"The iron used is said to be almost\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"unbreakable.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Defense: 48\",\"color\":\"green\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Armor\",\"color\":\"green\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Iron Chestplate\",\"color\":\"green\",\"italic\":false}'}}"
+                "tag": "{PreventDrop:1b,Unbreakable:1b,HideFlags:63,RPG:{PhysicDefense:48,ItemType:\"Armor\",GoldCost:240},display:{Lore:['{\"text\":\"Piece of the Iron set.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"The iron used is said to be almost\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"unbreakable.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Defense: 48\",\"color\":\"green\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Armor\",\"color\":\"green\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Iron Chestplate\",\"color\":\"green\",\"italic\":false}'}}"
               }
             ]
           }

@@ -18,5 +18,10 @@ kill @e[type=item,nbt={Item:{id:"minecraft:oak_sign"}}]
 execute as @e[type=giant,tag=TrollBroZ] at @s run function rpgpve:game/battle_wave/bosses/troll_bros/prevent_void
 
 # prevent custom health bars and displays to stay after its monster death
-execute as @e[type=text_display,tag=CustomHealthBar] at @s unless entity @e[type=#rpgpve:has_health_bar,distance=..1,limit=1] run kill @s
-execute as @e[type=item_display,tag=MobDisplay] at @s unless entity @e[type=#rpgpve:has_health_bar,distance=..1,limit=1] run kill @s
+execute as @e[type=text_display,tag=CustomHealthBar] at @s unless entity @e[type=#rpgpve:has_health_bar,distance=..2,limit=1] run kill @s
+execute as @e[type=item_display,tag=MobDisplay] at @s unless entity @e[type=#rpgpve:has_health_bar,distance=..2,limit=1] run kill @s
+execute as @e[type=text_display,tag=MiniBossName] at @s unless entity @e[type=#rpgpve:has_health_bar,tag=MiniBoss,distance=..10,limit=1] run kill @s
+
+
+# Remove host if no game is hosted
+execute unless score #GameHosted Temp matches 1 run tag @a remove HostingRPGPVE

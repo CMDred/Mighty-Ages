@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{Unbreakable:1b,HideFlags:63,RPG:{PhysicDefense:44,ItemType:\"Armor\",GoldCost:420},display:{Lore:['{\"text\":\"Once belonged to a Golden\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Order Knight.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"The gold was obtained by melting the\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"original armor, which was forged\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"by a cursed armorsmith.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Defense: 44\",\"color\":\"light_purple\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Armor\",\"color\":\"red\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Golden Order Boots\",\"color\":\"red\",\"italic\":false}'}}"
+                "tag": "{PreventDrop:1b,Unbreakable:1b,HideFlags:63,RPG:{PhysicDefense:44,ItemType:\"Armor\",GoldCost:420},display:{Lore:['{\"text\":\"Once belonged to a Golden\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Order Knight.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"The gold was obtained by melting the\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"original armor, which was forged\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"by a cursed armorsmith.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Defense: 44\",\"color\":\"light_purple\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Armor\",\"color\":\"red\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Golden Order Boots\",\"color\":\"red\",\"italic\":false}'}}"
               }
             ]
           }

@@ -2,6 +2,8 @@
   "values": [
     "minecraft:villager",
     "minecraft:skeleton",
-    "minecraft:armor_stand"
+    "minecraft:armor_stand",
+    "minecraft:text_display",
+    "minecraft:marker"
   ]
 }

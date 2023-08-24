@@ -79,6 +79,7 @@ scoreboard objectives add IceArrowFreezeTime dummy
 scoreboard objectives add KillTimer dummy 
 scoreboard objectives add PreviousSlot dummy 
 scoreboard objectives add DifferentActionbar dummy
+scoreboard objectives add Dropped custom:drop
 
 # Damage
 scoreboard objectives add PlayerAttacked minecraft.custom:minecraft.damage_dealt

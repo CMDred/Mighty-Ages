@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{Unbreakable:1b,HideFlags:63,RPG:{Ability:\"Poison\",Damage:90,DamageType:1,ItemType:\"Bow\",GoldCost:720},display:{Lore:['{\"text\":\"This bow was made using an\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"ancient serpent\\'s materials.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','[{\"text\":\"Damage Type: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Physical\",\"color\":\"red\",\"italic\":false}]','{\"text\":\"Damage: 90\",\"color\":\"dark_red\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Bow\",\"color\":\"yellow\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Viper\",\"color\":\"yellow\",\"italic\":false}'}}"
+                "tag": "{PreventDrop:1b,Unbreakable:1b,HideFlags:63,RPG:{Ability:\"Poison\",Damage:90,DamageType:1,ItemType:\"Bow\",GoldCost:720},display:{Lore:['{\"text\":\"This bow was made using an\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"ancient serpent\\'s materials.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','[{\"text\":\"Damage Type: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Physical\",\"color\":\"red\",\"italic\":false}]','{\"text\":\"Damage: 90\",\"color\":\"dark_red\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Bow\",\"color\":\"yellow\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Viper\",\"color\":\"yellow\",\"italic\":false}'}}"
               }
             ]
           }

@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:9,Unbreakable:1b,HideFlags:63,RPG:{Ability:\"GlowingBranch\",ManaCost:10,CastID:1,CastTime:10,Damage:80,DamageType:2,ItemType:\"Wand\",GoldCost:2000},display:{Lore:['[{\"text\":\"Damage Type: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Magical\",\"color\":\"light_purple\",\"italic\":false}]','{\"text\":\"Damage: 80\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"Mana Cost: 10\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Wand\",\"color\":\"aqua\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Glowing Branch\",\"color\":\"aqua\",\"italic\":false}'}}"
+                "tag": "{PreventDrop:1b,CustomModelData:9,Unbreakable:1b,HideFlags:63,RPG:{Ability:\"GlowingBranch\",ManaCost:10,CastID:1,CastTime:10,Damage:80,DamageType:2,ItemType:\"Wand\",GoldCost:2000},display:{Lore:['[{\"text\":\"Damage Type: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Magical\",\"color\":\"light_purple\",\"italic\":false}]','{\"text\":\"Damage: 80\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"Mana Cost: 10\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Wand\",\"color\":\"aqua\",\"bold\":true,\"italic\":false}'],Name:'{\"text\":\"Glowing Branch\",\"color\":\"aqua\",\"italic\":false}'}}"
               }
             ]
           }

@@ -12,3 +12,7 @@ execute as @e[type=#rpgpve:has_health_bar,tag=RPGPVEMob] at @s unless entity @a[
 
 # mobs aggro
 execute as @e[type=#rpgpve:has_health_bar,tag=NeedsAggro] at @s run damage @s 0.001 player_attack by @p[tag=IsInRPGPVEGame,tag=!Eliminated]
+
+# lobby speed & res
+execute in overworld positioned 0 80 0 run effect give @a[distance=..60] speed infinite 3 true
+execute in overworld positioned 0 80 0 run effect give @a[distance=..60] resistance infinite 5 true

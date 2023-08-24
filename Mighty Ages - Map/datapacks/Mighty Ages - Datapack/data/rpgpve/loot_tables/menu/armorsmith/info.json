@@ -15,7 +15,7 @@
                 "function": "minecraft:set_name",
                 "entity": "this",
                 "name": {
-                  "text": "Infos",
+                  "text": "Info",
                   "color": "blue",
                   "bold": false,
                   "italic": false
@@ -26,17 +26,17 @@
                 "entity": "this",
                 "lore": [
                   {
-                    "text": "In this menu, you can buy items",
+                    "text": "In this menu, you can upgrade your armor!",
                     "color": "gray",
                     "italic": false
                   },
                   {
-                    "text": "or effects that stay for only",
+                    "text": "Click each piece to upgrade it",
                     "color": "gray",
                     "italic": false
                   },
                   {
-                    "text": "one wave.",
+                    "text": "to the next level.",
                     "color": "gray",
                     "italic": false
                   }

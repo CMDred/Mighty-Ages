@@ -65,5 +65,9 @@ execute if score Optimise GameSettings matches 1.. as @a at @s run playsound ui.
 # Minecarts
 execute in rpgpve:rpgpve_game if score #CurrentBattleWave Temp matches 30..39 run function rpgpve:game/minecarts/summons
 
+# Records
+function rpgpve:game/records/highest_melee/save
+function rpgpve:game/records/longest_bow_shot/save
+
 function rpgpve:game/sidebar/update_all
 #----------------------------------------#

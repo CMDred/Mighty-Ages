@@ -5,7 +5,7 @@
 #---------------GAME MAIN----------------#
 execute if score #CurrentBattleWave Temp matches 0..9 in rpgpve:rpgpve_game run summon firework_rocket 0 35 0 {FireworksItem:{id:"minecraft:firework_rocket",Count:1b,tag:{Fireworks:{Explosions:[{Colors:[I;1810715],FadeColors:[I;1676302,4312372]}]}}}}
 
-execute if score #CurrentBattleWave Temp matches 10..19 in rpgpve:rpgpve_game run summon firework_rocket -10000 35 0 {FireworksItem:{id:"minecraft:firework_rocket",Count:1b,tag:{Fireworks:{Explosions:[{Colors:[I;16712708],FadeColors:[I;5048328,13796310]}]}}}}
+execute if score #CurrentBattleWave Temp matches 10..19 in rpgpve:rpgpve_game run summon firework_rocket -10000 35 0 {FireworksItem:{id:"minecraft:firework_rocket",Count:1b,tag:{Fireworks:{Explosions:[{Colors:[I;16712708],FadeColors:[I;5048328,3677968]}]}}}}
 
 execute if score #CurrentBattleWave Temp matches 20..29 in rpgpve:rpgpve_game run summon firework_rocket -15000 25 0 {FireworksItem:{id:"minecraft:firework_rocket",Count:1b,tag:{Fireworks:{Explosions:[{Colors:[I;5285375],FadeColors:[I;985165,8316927]}]}}}}
 

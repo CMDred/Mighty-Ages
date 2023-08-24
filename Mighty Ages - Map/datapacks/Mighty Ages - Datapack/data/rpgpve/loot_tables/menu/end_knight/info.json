@@ -15,7 +15,7 @@
                 "function": "minecraft:set_name",
                 "entity": "this",
                 "name": {
-                  "text": "Infos",
+                  "text": "Info",
                   "color": "blue",
                   "bold": false,
                   "italic": false
@@ -26,22 +26,17 @@
                 "entity": "this",
                 "lore": [
                   {
-                    "text": "In this menu, you can upgrade your physical",
+                    "text": "In this menu, you can buy items",
                     "color": "gray",
                     "italic": false
                   },
                   {
-                    "text": "melee and ranged weapons! However, you",
+                    "text": "or effects that stay for only",
                     "color": "gray",
                     "italic": false
                   },
                   {
-                    "text": "can only have one melee and one ranged",
-                    "color": "gray",
-                    "italic": false
-                  },
-                  {
-                    "text": "weapon at the same time. (E.g Physic Melee with Magic Ranged)",
+                    "text": "one wave.",
                     "color": "gray",
                     "italic": false
                   }

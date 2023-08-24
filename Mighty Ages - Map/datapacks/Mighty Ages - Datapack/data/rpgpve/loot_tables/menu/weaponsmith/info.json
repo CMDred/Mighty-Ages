@@ -15,7 +15,7 @@
                 "function": "minecraft:set_name",
                 "entity": "this",
                 "name": {
-                  "text": "Infos",
+                  "text": "Info",
                   "color": "blue",
                   "bold": false,
                   "italic": false
@@ -26,17 +26,12 @@
                 "entity": "this",
                 "lore": [
                   {
-                    "text": "In this menu, you can upgrade your armor!",
+                    "text": "In this menu, you can upgrade your physical",
                     "color": "gray",
                     "italic": false
                   },
                   {
-                    "text": "Click each piece to upgrade it",
-                    "color": "gray",
-                    "italic": false
-                  },
-                  {
-                    "text": "to the next level.",
+                    "text": "melee and ranged weapons.",
                     "color": "gray",
                     "italic": false
                   }

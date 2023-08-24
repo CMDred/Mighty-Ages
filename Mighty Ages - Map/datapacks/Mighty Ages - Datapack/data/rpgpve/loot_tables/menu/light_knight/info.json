@@ -15,7 +15,7 @@
                 "function": "minecraft:set_name",
                 "entity": "this",
                 "name": {
-                  "text": "Infos",
+                  "text": "Info",
                   "color": "blue",
                   "bold": false,
                   "italic": false

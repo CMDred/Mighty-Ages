@@ -25,4 +25,7 @@ execute if score @s ApplyPhysicDamage matches 1.. run function rpgpve:stats/dama
 # Arrows Check
 execute if score @s ShootBow matches 1.. as @e[type=#minecraft:arrows,tag=!GotStats,distance=..2,sort=nearest,limit=1] run function rpgpve:stats/arrow/player_stats
 execute if score @s ShootCrossbow matches 1.. as @e[type=#minecraft:arrows,tag=!GotStats,distance=..2,sort=nearest,limit=1] run function rpgpve:stats/arrow/player_stats
+
+# Items anti drop
+function rpgpve:items/give_back_items/main
 #----------------------------------------#

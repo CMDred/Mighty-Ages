@@ -3,11 +3,6 @@
 #        Don't claim as own work         #
 #========================================#
 #--------------BATTLE WAVE---------------#
-# Put barrier ceiling for spreadplayers
-execute in rpgpve:rpgpve_game run fill -50 70 -50 50 70 50 barrier
-execute in rpgpve:rpgpve_game run fill -19970 7 33 -20026 3 -21 barrier replace air
-execute in the_end run fill 40 70 40 -40 70 -40 barrier replace air
-
 # Get Current wave data
 execute if score #CurrentBattleWave Temp matches 1 run data modify storage rpgpve:waves CurrentWave set from storage rpgpve:waves Waves.Wave1
 execute if score #CurrentBattleWave Temp matches 2 run data modify storage rpgpve:waves CurrentWave set from storage rpgpve:waves Waves.Wave2
@@ -61,10 +56,15 @@ execute if score #CurrentBattleWave Temp matches 49 run data modify storage rpgp
 execute if score #CurrentBattleWave Temp matches 50 run data modify storage rpgpve:waves CurrentWave set from storage rpgpve:waves Waves.Wave50
 
 # Cycle
-function rpgpve:game/battle_wave/monsters/game_spawn/storage_cycle/start
+execute unless data storage rpgpve:waves {CurrentWave:"Boss"} run function rpgpve:game/battle_wave/monsters/game_spawn/storage_cycle/start
 
-# Put air back
-execute in rpgpve:rpgpve_game run fill -50 70 -50 50 70 50 air
-execute in rpgpve:rpgpve_game run fill -19970 7 33 -20026 3 -21 air replace barrier
-execute in the_end run fill 40 70 40 -40 70 -40 air replace barrier
+# spread bases
+execute if score #CurrentBattleWave Temp matches 0..9 run spreadplayers 0 0 1 28 under 32 false @e[type=marker,tag=MonsterSpawnParticleBase]
+execute if score #CurrentBattleWave Temp matches 10..19 run spreadplayers -10000 0 1 28 under 36 false @e[type=marker,tag=MonsterSpawnParticleBase]
+execute if score #CurrentBattleWave Temp matches 20..29 run spreadplayers -15000 0 1 28 under 32 false @e[type=marker,tag=MonsterSpawnParticleBase]
+execute if score #CurrentBattleWave Temp matches 30..39 run spreadplayers -20000 0 1 28 under 5 false @e[type=marker,tag=MonsterSpawnParticleBase]
+execute if score #CurrentBattleWave Temp matches 40..49 in the_end run spreadplayers 0 0 1 32 under 75 false @e[type=marker,tag=MonsterSpawnParticleBase]
+
+# summon particles above bases
+execute as @e[type=marker,tag=MonsterSpawnParticleBase] at @s run function rpgpve:game/battle_wave/monsters/game_spawn/particle_at_base
 #----------------------------------------#
