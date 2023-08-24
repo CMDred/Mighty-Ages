@@ -16,7 +16,7 @@ gamerule doMobSpawning false
 gamerule announceAdvancements false
 gamerule mobGriefing false
 gamerule doWardenSpawning false
-
+gamerule sendCommandFeedback false
 
 # Scores
 scoreboard objectives add JoinRPGPVELobby trigger
