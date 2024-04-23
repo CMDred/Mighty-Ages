@@ -7,11 +7,11 @@
         {"predicate": {"custom_model_data": 1},"model": "rpgpve/empty"},
 
 
-        {"predicate": {"custom_model_data": 10},"model": "rpgpve/npcs/body/archer"},
-        {"predicate": {"custom_model_data": 11},"model": "rpgpve/npcs/right_arm/archer"},
-        {"predicate": {"custom_model_data": 12},"model": "rpgpve/npcs/left_arm/archer"},
-        {"predicate": {"custom_model_data": 13},"model": "rpgpve/npcs/head/archer"},
-        {"predicate": {"custom_model_data": 14},"model": "rpgpve/npcs_undetailed/body/archer"},
+        {"predicate": {"custom_model_data": 10},"model": "rpgpve/npcs/body/terra_knight"},
+        {"predicate": {"custom_model_data": 11},"model": "rpgpve/npcs/right_arm/terra_knight"},
+        {"predicate": {"custom_model_data": 12},"model": "rpgpve/npcs/left_arm/terra_knight"},
+        {"predicate": {"custom_model_data": 13},"model": "rpgpve/npcs/head/terra_knight"},
+        {"predicate": {"custom_model_data": 14},"model": "rpgpve/npcs_undetailed/body/terra_knight"},
 
         {"predicate": {"custom_model_data": 15},"model": "rpgpve/npcs/body/armorsmith"},
         {"predicate": {"custom_model_data": 16},"model": "rpgpve/npcs/right_arm/armorsmith"},
@@ -71,7 +71,13 @@
         {"predicate": {"custom_model_data": 61},"model": "rpgpve/npcs/right_arm/witch"},
         {"predicate": {"custom_model_data": 62},"model": "rpgpve/npcs/left_arm/witch"},
         {"predicate": {"custom_model_data": 63},"model": "rpgpve/npcs/head/witch"},
-        {"predicate": {"custom_model_data": 64},"model": "rpgpve/npcs_undetailed/body/witch"}
+        {"predicate": {"custom_model_data": 64},"model": "rpgpve/npcs_undetailed/body/witch"},
+
+        {"predicate": {"custom_model_data": 65},"model": "rpgpve/npcs/body/golem"},
+        {"predicate": {"custom_model_data": 66},"model": "rpgpve/npcs/right_arm/golem"},
+        {"predicate": {"custom_model_data": 67},"model": "rpgpve/npcs/left_arm/golem"},
+        {"predicate": {"custom_model_data": 68},"model": "rpgpve/npcs/head/golem"},
+        {"predicate": {"custom_model_data": 69},"model": "rpgpve/npcs_undetailed/body/golem"}
 
     ]
 }

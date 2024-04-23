@@ -1,0 +1,14 @@
+{
+    "pools": [
+      {
+        "rolls": 27,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:air"
+          }
+        ]
+      }
+    ]
+  }
+  

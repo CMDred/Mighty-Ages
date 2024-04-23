@@ -1,0 +1,88 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MenuItem:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "text": "Projectile Protection",
+                  "color": "green",
+                  "bold": false,
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Projectiles damage received",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "is reduced by",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " 33%",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": " for the",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "next wave.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

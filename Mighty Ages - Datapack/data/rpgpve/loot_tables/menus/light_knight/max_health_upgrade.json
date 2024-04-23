@@ -1,0 +1,225 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:apple",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MenuItem:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "text": "Maximum Health ",
+                  "color": "red",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "nbt": "RomanNumeral",
+                  "interpret": true,
+                  "storage": "rpgpve:roman",
+                  "color": "red",
+                  "bold": false,
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Upgrade your Max Health!",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                [
+                  {
+                    "text": "Current Bonus: ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "+",
+                    "color": "red",
+                    "italic": false
+                  },
+                  {
+                    "score": {
+                      "name": "@a[tag=MenuOwner,limit=1]",
+                      "objective": "MaxHealthBonus"
+                    },
+                    "color": "red",
+                    "italic": false
+                  },
+                  {
+                    "text": " Max Health",
+                    "color": "red",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "Next Bonus: ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "+",
+                    "color": "red",
+                    "italic": false
+                  },
+                  {
+                    "score": {
+                      "name": "#NextMaxHP",
+                      "objective": "Dummy"
+                    },
+                    "color": "red",
+                    "italic": false
+                  },
+                  {
+                    "text": " Max Health",
+                    "color": "red",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": " "
+                },
+                [
+                  {
+                    "text": "Cost: ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "score": {
+                      "name": "#MaxHealthCost",
+                      "objective": "Dummy"
+                    },
+                    "color": "gold",
+                    "italic": false
+                  },
+                  {
+                    "text": " Gold",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Click to upgrade!",
+                  "color": "yellow",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "MaxHealthUpgradeTier": {
+                      "min": 0,
+                      "max": 14
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Upgrade your Max Health!",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                [
+                  {
+                    "text": "Current Bonus: ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "+",
+                    "color": "red",
+                    "italic": false
+                  },
+                  {
+                    "score": {
+                      "name": "@a[tag=MenuOwner,limit=1]",
+                      "objective": "MaxHealthBonus"
+                    },
+                    "color": "red",
+                    "italic": false
+                  },
+                  {
+                    "text": " Max Health",
+                    "color": "red",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Maxed Out!",
+                  "color": "green",
+                  "italic": false,
+                  "underlined": true
+                }
+              ],
+              "mode": "replace_all",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "MaxHealthUpgradeTier": 15
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "pack": {
+        "pack_format": 41,
+        "description": "Mighty Ages Datapack - CMDRed"
+    },
+    "filter": {
+        "block": [
+            { "namespace": "^minecraft$", "path": "advancements" }
+                ]
+    }
+}

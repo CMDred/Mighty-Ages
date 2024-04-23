@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "chainmail_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{PreventDrop:1b,RPG:{PhysicDefense:24,ItemType:\"Armor\",GoldCost:50}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                },
+                "minecraft:lore": [
+                  "{\"text\":\"Belongs to the Chainmail set.\",\"color\":\"gray\",\"italic\":false}",
+                  "{\"text\":\"The small holes in the armor sure are\",\"color\":\"gray\",\"italic\":false}",
+                  "{\"text\":\"a downside, but the iron\",\"color\":\"gray\",\"italic\":false}",
+                  "{\"text\":\"used in it is very resistant.\",\"color\":\"gray\",\"italic\":false}",
+                  "{\"text\":\" \"}",
+                  "{\"text\":\"Defense: 24\",\"color\":\"yellow\",\"italic\":false}",
+                  "{\"text\":\" \"}",
+                  "{\"text\":\"Armor\",\"color\":\"yellow\",\"bold\":true,\"italic\":false}"
+                ],
+                "minecraft:item_name": "{\"text\":\"Chainmail Leggings\",\"color\":\"yellow\",\"italic\":false}",
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

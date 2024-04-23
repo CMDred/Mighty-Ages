@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "bow",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{PreventDrop:1b,RPG:{Damage:110,DamageType:1,ItemType:\"Bow\",GoldCost:1000}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                },
+                "minecraft:lore": [
+                  "{\"text\":\"This bow fell from the heavens.\",\"color\":\"gray\",\"italic\":false}",
+                  "{\"text\":\"It was found in an enormous crater\",\"color\":\"gray\",\"italic\":false}",
+                  "{\"text\":\"on the ground.\",\"color\":\"gray\",\"italic\":false}",
+                  "{\"text\":\" \"}",
+                  "[{\"text\":\"Damage Type: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Physical\",\"color\":\"green\",\"italic\":false}]",
+                  "{\"text\":\"Damage: 110\",\"color\":\"dark_red\",\"italic\":false}",
+                  "{\"text\":\" \"}",
+                  "{\"text\":\"Bow\",\"color\":\"green\",\"bold\":true,\"italic\":false}"
+                ],
+                "minecraft:item_name": "{\"text\":\"Starfire Shot\",\"color\":\"green\",\"italic\":false}",
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

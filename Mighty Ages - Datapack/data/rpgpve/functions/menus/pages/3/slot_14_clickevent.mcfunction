@@ -1,0 +1,1 @@
+function rpgpve:items/buy/weapons/try {Type:"PhysicMelee",Tier:7,Item:"sword"}

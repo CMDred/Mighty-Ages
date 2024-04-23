@@ -1,0 +1,96 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "text": "Mending Potion",
+                  "color": "#3eace1",
+                  "bold": false,
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "Regenerates",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " 30%",
+                    "color": "#3eace1",
+                    "italic": false
+                  },
+                  {
+                    "text": " of Max Skill Point. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "Upgrades to ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "75%",
+                    "color": "#3eace1",
+                    "italic": false
+                  },
+                  {
+                    "text": " if both",
+                    "color": "gray",
+                    "italic": false
+                  }
+              ],
+              {
+                "text": "players are splashed.",
+                "color": "gray",
+                "italic": false
+              }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                },
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:potion_contents": {
+                  "custom_color": 4107489,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:unluck",
+                      "duration": 100,
+                      "amplifier": 1
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

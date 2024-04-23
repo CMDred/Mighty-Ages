@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{RPG:{ArrowID:0,ItemType:\"Arrow\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                },
+                "minecraft:lore": [
+                  "{\"text\":\" \"}",
+                  "{\"text\":\"Arrow\",\"color\":\"white\",\"bold\":true,\"italic\":false}"
+                ],
+                "minecraft:item_name": "{\"text\":\"Feathered Arrow\",\"color\":\"white\",\"italic\":false}",
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

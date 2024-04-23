@@ -1,0 +1,61 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{PreventDrop:1b,PhysicDefense:10,ItemType:\"Armor\",GoldCost:18}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lore": [
+                  "{\"text\":\"Belongs to the leather set.\",\"color\":\"gray\",\"italic\":false}",
+                  "{\"text\":\"It should protect you a small bit.\",\"color\":\"gray\",\"italic\":false}",
+                  "{\"text\":\" \"}",
+                  "{\"text\":\"Defense: 10\",\"color\":\"gray\",\"italic\":false}",
+                  "{\"text\":\" \"}",
+                  "{\"text\":\"Armor\",\"color\":\"white\",\"bold\":true,\"italic\":false}"
+                ],
+                "minecraft:custom_name": "{\"text\":\"Leather Chestplate\",\"color\":\"white\",\"italic\":false}",
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

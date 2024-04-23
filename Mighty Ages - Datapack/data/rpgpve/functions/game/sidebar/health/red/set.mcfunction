@@ -1,0 +1,4 @@
+$execute if score #RedHealth Dummy matches 0..25 run team modify mate_health_red suffix [{"text":" Health: "},{"text":"$(Red)%","color":"red","bold":true,"underlined":true}]
+$execute if score #RedHealth Dummy matches 26..50 run team modify mate_health_red suffix [{"text":" Health: "},{"text":"$(Red)%","color":"gold","bold":true}]
+$execute if score #RedHealth Dummy matches 51..75 run team modify mate_health_red suffix [{"text":" Health: "},{"text":"$(Red)%","color":"yellow","bold":false}]
+$execute if score #RedHealth Dummy matches 76..100 run team modify mate_health_red suffix [{"text":" Health: "},{"text":"$(Red)%","color":"green","bold":false}]

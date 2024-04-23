@@ -1,0 +1,1 @@
+$function rpgpve:menus/pages/2/slot_$(Slot)_clickevent

@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{PreventDrop:1b,RPG:{Ability:\"SculkSlime\",ManaCost:14,CastID:3,CastTime:10,Damage:125,DamageType:2,ItemType:\"Wand\",GoldCost:2850}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                },
+                "minecraft:lore": [
+                  "[{\"text\":\"Damage Type: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Magical\",\"color\":\"light_purple\",\"italic\":false}]",
+                  "{\"text\":\"Damage: 125\",\"color\":\"dark_purple\",\"italic\":false}",
+                  "{\"text\":\"Mana Cost: 14\",\"color\":\"#3eace1\",\"italic\":false}",
+                  "{\"text\":\" \"}",
+                  "{\"text\":\"Wand\",\"color\":\"blue\",\"bold\":true,\"italic\":false}"
+                ],
+                "minecraft:item_name": "{\"text\":\"Sculk Staff\",\"color\":\"blue\",\"italic\":false}",
+                "minecraft:custom_model_data": 11,
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

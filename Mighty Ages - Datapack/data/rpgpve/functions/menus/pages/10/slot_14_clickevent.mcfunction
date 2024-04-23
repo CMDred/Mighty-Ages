@@ -1,0 +1,1 @@
+function rpgpve:items/buy/armors/try {Type:"Leggings",ID:"leggings",Slot:"legs"}

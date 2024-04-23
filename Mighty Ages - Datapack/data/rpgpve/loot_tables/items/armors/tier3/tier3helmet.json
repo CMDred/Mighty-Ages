@@ -1,0 +1,52 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "iron_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{PreventDrop:1b,RPG:{PhysicDefense:32,ItemType:\"Armor\",GoldCost:170}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                },
+                "minecraft:lore": [
+                  "{\"text\":\"Piece of the Iron set.\",\"color\":\"gray\",\"italic\":false}",
+                  "{\"text\":\"The iron used is said to be almost\",\"color\":\"gray\",\"italic\":false}",
+                  "{\"text\":\"unbreakable.\",\"color\":\"gray\",\"italic\":false}",
+                  "{\"text\":\" \"}",
+                  "{\"text\":\"Defense: 32\",\"color\":\"green\",\"italic\":false}",
+                  "{\"text\":\" \"}",
+                  "{\"text\":\"Armor\",\"color\":\"green\",\"bold\":true,\"italic\":false}"
+                ],
+                "minecraft:item_name": "{\"text\":\"Iron Helmet\",\"color\":\"green\",\"italic\":false}",
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

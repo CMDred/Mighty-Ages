@@ -1,0 +1,21 @@
+[
+    {
+        "function": "minecraft:set_lore",
+        "lore": [
+            {
+                "text": " "
+            },
+            {
+                "text": "You already have purchased this!",
+                "color": "green",
+                "underlined": true,
+                "italic": false
+            }
+        ],
+        "mode": "append"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "rpgpve:enchant"
+    }
+]

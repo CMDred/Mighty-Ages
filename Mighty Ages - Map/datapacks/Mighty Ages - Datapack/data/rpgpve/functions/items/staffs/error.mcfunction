@@ -1,2 +1,0 @@
-tellraw @s ["",{"text":"Not enough Skill Point! (","color":"red"},{"score":{"name": "#ManaCost","objective": "Temp"},"color":"dark_red"},{"text":" needed)","color":"red"}]
-playsound entity.enderman.teleport master @s ~ ~ ~ 0.8 0

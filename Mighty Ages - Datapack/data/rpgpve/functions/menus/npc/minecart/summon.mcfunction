@@ -1,0 +1,4 @@
+scoreboard players operation #CopyToMinecart Menus.Page = @s Menus.Page
+execute as @e[type=minecraft:chest_minecart,predicate=rpgpve:same_player_id,limit=1] run function rpgpve:menus/minecart/kill
+execute as @a[tag=ThisPlayer,limit=1] at @s anchored eyes positioned ^ ^ ^0.7 run summon minecraft:block_display ~ ~-0.32 ~ {Tags:["MenuMinecart","Dummy"],Passengers:[{id:"minecraft:chest_minecart",Invulnerable:1b,Team:"NoCollision",CustomName:'{"text":"Menu"}',CustomDisplayTile:1b,DisplayState:{Name:"minecraft:air"},Tags:["MenuMinecart","Registered","Dummy"]}]}
+execute as @e[type=minecraft:block_display,tag=Dummy,limit=1] run function rpgpve:menus/minecart/setup_block_display

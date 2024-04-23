@@ -1,0 +1,8 @@
+{
+  "mode": "replace_all",
+  "values": [
+    "minecraft:player",
+    "minecraft:arrow",
+    "minecraft:spectral_arrow"
+  ]
+}

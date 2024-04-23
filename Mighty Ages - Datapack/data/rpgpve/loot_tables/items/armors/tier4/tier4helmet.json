@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "golden_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{PreventDrop:1b,RPG:{PhysicDefense:54,ItemType:\"Armor\",GoldCost:480}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                },
+                "minecraft:lore": [
+                  "{\"text\":\"Once belonged to a Golden\",\"color\":\"gray\",\"italic\":false}",
+                  "{\"text\":\"Order Knight.\",\"color\":\"gray\",\"italic\":false}",
+                  "{\"text\":\"The gold was obtained by melting the\",\"color\":\"gray\",\"italic\":false}",
+                  "{\"text\":\"original armor, which was forged\",\"color\":\"gray\",\"italic\":false}",
+                  "{\"text\":\"by a cursed armorsmith.\",\"color\":\"gray\",\"italic\":false}",
+                  "{\"text\":\" \"}",
+                  "{\"text\":\"Defense: 54\",\"color\":\"light_purple\",\"italic\":false}",
+                  "{\"text\":\" \"}",
+                  "{\"text\":\"Armor\",\"color\":\"red\",\"bold\":true,\"italic\":false}"
+                ],
+                "minecraft:item_name": "{\"text\":\"Golden Order Helmet\",\"color\":\"red\",\"italic\":false}",
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

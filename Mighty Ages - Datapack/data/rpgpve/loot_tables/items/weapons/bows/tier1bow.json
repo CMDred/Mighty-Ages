@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "bow",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{PreventDrop:1b,RPG:{Damage:20,DamageType:1,ItemType:\"Bow\",GoldCost:200}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lore": [
+                  "{\"text\":\"This piece of wood and string\",\"color\":\"gray\",\"italic\":false}",
+                  "{\"text\":\"should be able to shoot arrows \",\"color\":\"gray\",\"italic\":false}",
+                  "{\"text\":\"without breaking.\",\"color\":\"gray\",\"italic\":false}",
+                  "{\"text\":\" \"}",
+                  "[{\"text\":\"Damage Type: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Physical\",\"color\":\"red\",\"italic\":false}]",
+                  "{\"text\":\"Damage: 20\",\"color\":\"dark_red\",\"italic\":false}",
+                  "{\"text\":\" \"}",
+                  "{\"text\":\"Bow\",\"color\":\"white\",\"bold\":true,\"italic\":false}"
+                ],
+                "minecraft:item_name": "{\"text\":\"Shattered Bow\",\"color\":\"white\",\"italic\":false}",
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_shovel",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{PreventDrop:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.luck\",Amount:0.001,Slot:mainhand,Name:\"generic.luck\",UUID:[I;-12348,12675,155451,-27110]}],RPG:{ManaCost:15,Damage:125,DamageType:2,ItemType:\"Sceptre\",GoldCost:1440}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                },
+                "minecraft:lore": [
+                  "[{\"text\":\"Damage Type: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Magical\",\"color\":\"light_purple\",\"italic\":false}]",
+                  "{\"text\":\"Damage: 125\",\"color\":\"dark_purple\",\"italic\":false}",
+                  "{\"text\":\"Mana Cost: 15\",\"color\":\"#3eace1\",\"italic\":false}",
+                  "{\"text\":\" \"}",
+                  "{\"text\":\"Sceptre\",\"color\":\"dark_aqua\",\"bold\":true,\"italic\":false}"
+                ],
+                "minecraft:item_name": "{\"text\":\"Giant\\'s Sceptre\",\"color\":\"dark_aqua\",\"italic\":false}",
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "minecraft:generic.luck",
+                      "uuid": [
+                        -12348,
+                        12675,
+                        155451,
+                        -27110
+                      ],
+                      "name": "minecraft:generic.luck",
+                      "amount": 0.001,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

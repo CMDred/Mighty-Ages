@@ -1,0 +1,21 @@
+[
+    {
+        "function": "set_name",
+        "target": "item_name",
+        "name": {
+            "text": "Not Unlocked!",
+            "color": "yellow"
+        }
+    },
+    {
+        "function": "set_lore",
+        "lore": [
+            {
+                "text": "Buy the previous tier first.",
+                "color": "gray",
+                "italic": false
+            }
+        ],
+        "mode": "replace_all"
+    }
+]

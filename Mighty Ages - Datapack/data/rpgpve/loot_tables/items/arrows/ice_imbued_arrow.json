@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{RPG:{NotDefaultArrow:1b,ArrowID:5,ItemType:\"Arrow\",GoldCost:32}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                },
+                "minecraft:lore": [
+                  "{\"text\":\" \"}",
+                  "{\"text\":\"Arrow\",\"color\":\"#74c3ff\",\"bold\":true,\"italic\":false}"
+                ],
+                "minecraft:item_name": "{\"text\":\"Ice-Imbued Arrow\",\"color\":\"#74c3ff\",\"italic\":false}",
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:potion_contents": {
+                  "custom_color": 7652351
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

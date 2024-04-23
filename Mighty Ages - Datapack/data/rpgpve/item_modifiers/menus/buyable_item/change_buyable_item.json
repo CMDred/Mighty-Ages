@@ -1,0 +1,48 @@
+[
+    {
+      "function": "minecraft:reference",
+      "name": "rpgpve:menus/buyable_item/set_unbuyable",
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "Dummy": {
+              "min": 2,
+              "max": 100
+            }
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:reference",
+      "name": "rpgpve:menus/buyable_item/set_buyable",
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "Dummy": 1
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:reference",
+      "name": "rpgpve:menus/buyable_item/set_bought",
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "Dummy": {
+              "min": -100,
+              "max": 0
+            }
+          }
+        }
+      ]
+    }
+  ]
+  

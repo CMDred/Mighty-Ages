@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{PreventDrop:1b,IsSword:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.luck\",Amount:0.001,Slot:mainhand,Name:\"generic.luck\",UUID:[I;-12378,13555,195651,-27110]}],RPG:{Damage:10,DamageType:1,ItemType:\"Sword\",GoldCost:20}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                },
+                "minecraft:lore": [
+                  "{\"text\":\"The weaponsmith added some\",\"color\":\"gray\",\"italic\":false}",
+                  "{\"text\":\"spikes on your stick. It should deal\",\"color\":\"gray\",\"italic\":false}",
+                  "{\"text\":\"a bit more damage now.\",\"color\":\"gray\",\"italic\":false}",
+                  "{\"text\":\" \"}",
+                  "[{\"text\":\"Damage Type: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Physical\",\"color\":\"red\",\"italic\":false}]",
+                  "{\"text\":\"Damage: 10\",\"color\":\"dark_red\",\"italic\":false}",
+                  "{\"text\":\" \"}",
+                  "{\"text\":\"Sword\",\"color\":\"white\",\"bold\":true,\"italic\":false}"
+                ],
+                "minecraft:item_name": "{\"text\":\"Spiny Stick\",\"color\":\"white\",\"italic\":false}"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "minecraft:generic.luck",
+                      "uuid": [
+                        -12378,
+                        13555,
+                        195651,
+                        -27110
+                      ],
+                      "name": "minecraft:generic.luck",
+                      "amount": 0.001,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

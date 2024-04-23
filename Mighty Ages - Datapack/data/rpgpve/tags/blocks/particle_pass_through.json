@@ -1,0 +1,15 @@
+{
+  "mode": "replace_all",
+  "values": [
+    "minecraft:void_air",
+    "minecraft:air",
+    "minecraft:cave_air",
+    "minecraft:short_grass",
+    "#minecraft:leaves",
+    "#minecraft:logs",
+    "#minecraft:flowers",
+    "minecraft:red_mushroom",
+    "minecraft:brown_mushroom",
+    "minecraft:barrier"
+  ]
+}

@@ -1,0 +1,10 @@
+execute at @s run playsound entity.lightning_bolt.thunder master @a[distance=0..] ~ ~ ~ 1 1 0 
+execute store result score #RandomMessage Dummy run random value 1..3
+
+execute if score #RandomMessage Dummy matches 1 on attacker if entity @s[type=player] run tellraw @a[tag=IsInRPGPVEGame] ["",{"selector":"@s","color":"gold"},{"text":" decided to betray ","color":"yellow"},{"selector":"@p[tag=NewDead]","color":"gold"},{"text":".","color":"yellow"}]
+execute if score #RandomMessage Dummy matches 2 on attacker if entity @s[type=player] run tellraw @a[tag=IsInRPGPVEGame] ["",{"selector":"@p[tag=NewDead]","color":"gold"},{"text":" was betrayed by ","color":"yellow"},{"selector":"@s","color":"gold"},{"text":".","color":"yellow"}]
+execute if score #RandomMessage Dummy matches 3 on attacker if entity @s[type=player] run tellraw @a[tag=IsInRPGPVEGame] ["",{"selector":"@s","color":"gold"},{"text":" couldn't remember the great memories created alongside ","color":"yellow"},{"selector":"@p[tag=NewDead]","color":"gold"},{"text":".","color":"yellow"}]
+
+execute if score #RandomMessage Dummy matches 1 on attacker if entity @s[type=!player] run tellraw @a[tag=IsInRPGPVEGame] ["",{"selector":"@p[tag=NewDead]","color":"gold"},{"text":" was killed by ","color":"yellow"},{"nbt":"ArmorItems[3].components.'minecraft:custom_data'.MobName","entity":"@s","interpret":true,"color":"gold"},{"text":".","color":"yellow"}]
+execute if score #RandomMessage Dummy matches 2 on attacker if entity @s[type=!player] run tellraw @a[tag=IsInRPGPVEGame] ["",{"selector":"@p[tag=NewDead]","color":"gold"},{"text":" fell to ","color":"yellow"},{"nbt":"ArmorItems[3].components.'minecraft:custom_data'.MobName","entity":"@s","interpret":true,"color":"gold"},{"text":"'s might.","color":"yellow"}]
+execute if score #RandomMessage Dummy matches 3 on attacker if entity @s[type=!player] run tellraw @a[tag=IsInRPGPVEGame] ["",{"nbt":"ArmorItems[3].components.'minecraft:custom_data'.MobName","entity":"@s","interpret":true,"color":"gold"},{"text":" was too strong for ","color":"yellow"},{"selector":"@p[tag=NewDead]","color":"gold"},{"text":".","color":"yellow"}]

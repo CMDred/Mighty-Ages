@@ -1,0 +1,42 @@
+[
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": " "
+        },
+        [
+          {
+            "text": "Gold ",
+            "color": "gold",
+            "italic": false
+          },
+          {
+            "text": "x",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "score": {
+              "name": "#Cost",
+              "objective": "Dummy"
+            },
+            "color": "gold",
+            "italic": false
+          }
+        ],
+        {
+          "text": " "
+        },
+        {
+          "text": "Click to buy!",
+          "color": "yellow",
+          "italic": false,
+          "underlined": true
+        }
+      ],
+      "mode": "append"
+    }
+  ]
+  

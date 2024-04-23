@@ -1,0 +1,1 @@
+function rpgpve:items/buy/weapons/try {Type:"MagicMelee",Tier:6,Item:"sceptre"}

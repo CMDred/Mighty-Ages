@@ -1,0 +1,1 @@
+function rpgpve:items/buy/weapons/try {Type:"PhysicRanged",Tier:6,Item:"bow"}

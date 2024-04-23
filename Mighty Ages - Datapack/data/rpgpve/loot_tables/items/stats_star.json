@@ -1,0 +1,258 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_star",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "text": "Stats",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": " "
+                },
+                [
+                  {
+                    "text": "",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "score": {
+                      "name": "#DefPhy",
+                      "objective": "Dummy"
+                    },
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": " Physical Defense ",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "(",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "score": {
+                      "name": "#PhyRedUnit",
+                      "objective": "Dummy"
+                    },
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ".",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "score": {
+                      "name": "#PhyRedDeci",
+                      "objective": "Dummy"
+                    },
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "% Physical Damage Reduction)",
+                    "color": "dark_gray",
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "score": {
+                      "name": "#DefMag",
+                      "objective": "Dummy"
+                    },
+                    "color": "aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " Magical Defense ",
+                    "color": "aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": "(",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "score": {
+                      "name": "#MagRedUnit",
+                      "objective": "Dummy"
+                    },
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ".",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "score": {
+                      "name": "#MagRedDeci",
+                      "objective": "Dummy"
+                    },
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "% Magical Damage Reduction)",
+                    "color": "dark_gray",
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append",
+              "conditions": [
+                {
+                  "condition": "entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "AbsMath": {
+                      "min": 20
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "score": {
+                      "name": "#HPRegenUnit",
+                      "objective": "Dummy"
+                    },
+                    "color": "red",
+                    "italic": false
+                  },
+                  {
+                    "text": ".",
+                    "color": "red",
+                    "italic": false
+                  },
+                  {
+                    "score": {
+                      "name": "#HPRegenDeci",
+                      "objective": "Dummy"
+                    },
+                    "color": "red",
+                    "italic": false
+                  },
+                  {
+                    "text": " HP/s",
+                    "color": "red",
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "score": {
+                      "name": "#SPRegenUnit",
+                      "objective": "Dummy"
+                    },
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": ".",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "score": {
+                      "name": "#SPRegenDeci",
+                      "objective": "Dummy"
+                    },
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": " SP/s",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append",
+              "conditions": [
+                {
+                  "condition": "entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "AbsMath": {
+                      "min": 20
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "wooden_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{PreventDrop:1b,IsSword:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.luck\",Amount:0.001,Slot:mainhand,Name:\"generic.luck\",UUID:[I;-12378,13555,195651,-27110]}],RPG:{Damage:25,DamageType:1,ItemType:\"Sword\",GoldCost:120}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                },
+                "minecraft:lore": [
+                  "{\"text\":\"This piece of wood is very sharp.\",\"color\":\"gray\",\"italic\":false}",
+                  "{\"text\":\"It should be very handy when\",\"color\":\"gray\",\"italic\":false}",
+                  "{\"text\":\"having to deal with danger.\",\"color\":\"gray\",\"italic\":false}",
+                  "{\"text\":\" \"}",
+                  "[{\"text\":\"Damage Type: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Physical\",\"color\":\"red\",\"italic\":false}]",
+                  "{\"text\":\"Damage: 25\",\"color\":\"dark_red\",\"italic\":false}",
+                  "{\"text\":\" \"}",
+                  "{\"text\":\"Sword\",\"color\":\"yellow\",\"bold\":true,\"italic\":false}"
+                ],
+                "minecraft:item_name": "{\"text\":\"Wooden Sharp Blade\",\"color\":\"yellow\",\"italic\":false}",
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "minecraft:generic.luck",
+                      "uuid": [
+                        -12378,
+                        13555,
+                        195651,
+                        -27110
+                      ],
+                      "name": "minecraft:generic.luck",
+                      "amount": 0.001,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

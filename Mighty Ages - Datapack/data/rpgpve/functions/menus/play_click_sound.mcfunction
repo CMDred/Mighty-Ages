@@ -1,0 +1,1 @@
+execute as @p at @s run playsound ui.button.click master @s ~ ~ ~ .5 1 0

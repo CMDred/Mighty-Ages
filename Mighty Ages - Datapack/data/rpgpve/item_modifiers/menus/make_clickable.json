@@ -1,0 +1,6 @@
+[
+    {
+        "function": "minecraft:set_custom_data",
+        "tag": "{Clickable:1b}"
+    }
+]

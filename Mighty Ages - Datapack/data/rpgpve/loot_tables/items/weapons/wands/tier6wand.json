@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{PreventDrop:1b,RPG:{Ability:\"StalkOfTruth\",ManaCost:17,CastID:6,CastTime:10,Damage:215,DamageType:2,ItemType:\"Wand\",GoldCost:5000}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                },
+                "minecraft:lore": [
+                  "[{\"text\":\"Damage Type: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Magical\",\"color\":\"light_purple\",\"italic\":false}]",
+                  "{\"text\":\"Damage: 215\",\"color\":\"dark_purple\",\"italic\":false}",
+                  "{\"text\":\"Mana Cost: 17\",\"color\":\"#3eace1\",\"italic\":false}",
+                  "{\"text\":\" \"}",
+                  "{\"text\":\"Wand\",\"color\":\"#3edb74\",\"bold\":true,\"italic\":false}"
+                ],
+                "minecraft:item_name": "{\"text\":\"Stalk of Truth\",\"color\":\"#3edb74\",\"italic\":false}",
+                "minecraft:custom_model_data": 14,
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
