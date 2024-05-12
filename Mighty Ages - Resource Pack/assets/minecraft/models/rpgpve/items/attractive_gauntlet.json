@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "rpgpve/items/gauntlet_base",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "rpgpve/items/attractive_gauntlet",
+		"particle": "rpgpve/items/attractive_gauntlet"
+	}
+}

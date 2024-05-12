@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "set_custom_data",
-              "tag": "{OneWaveOnly:1b}"
+              "tag": "{OneWaveOnly:1b,GauntletType:\"Attractive\"}"
             },
             {
               "function": "minecraft:set_name",
@@ -54,7 +54,8 @@
                 "minecraft:attribute_modifiers": {
                   "modifiers": [],
                   "show_in_tooltip": false
-                }
+                },
+                "minecraft:custom_model_data": 1
               }
             }
           ]

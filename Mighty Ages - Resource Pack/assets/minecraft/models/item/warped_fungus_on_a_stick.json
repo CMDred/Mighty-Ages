@@ -8,13 +8,13 @@
         "predicate": {
           "custom_model_data": 1
         },
-        "model": "minecraft:item/lantern"
+        "model": "minecraft:rpgpve/items/attractive_gauntlet"
       },
       {
         "predicate": {
           "custom_model_data": 2
         },
-        "model": "minecraft:item/soul_lantern"
+        "model": "minecraft:rpgpve/items/repelling_gauntlet"
       },
       {
         "predicate": {
