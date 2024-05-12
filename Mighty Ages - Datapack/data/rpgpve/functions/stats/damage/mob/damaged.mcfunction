@@ -24,6 +24,6 @@ function rpgpve:stats/damage/icon
 #-----------KILL IF NO HEALTH------------#
 execute if score @s Health matches ..0 run function rpgpve:stats/damage/mob/kill
 #-----------------RESET------------------#
-kill @e[type=#minecraft:arrows,tag=Attacker,sort=nearest,limit=1]
+execute if score #UsedProjectile Dummy matches 1 on attacker unless score @s HasPiercing matches 1 run kill @e[type=#minecraft:arrows,tag=Attacker,sort=nearest,limit=1]
 schedule function rpgpve:stats/damage/mob/remove_damaged_score 1t replace
 #----------------------------------------#

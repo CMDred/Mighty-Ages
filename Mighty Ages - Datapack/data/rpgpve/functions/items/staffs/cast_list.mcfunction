@@ -2,6 +2,8 @@ function rpgpve:items/staffs/calculate_damage
 
 tag @s add Attacker
 
+execute if score @s HasPiercing matches 1 run scoreboard players set #StaffPiercing Dummy 1
+
 execute if score @s CastID matches 1 run function rpgpve:items/staffs/glowing_branch/cast
 execute if score @s CastID matches 2 run function rpgpve:items/staffs/mage_stick/cast
 execute if score @s CastID matches 3 run function rpgpve:items/staffs/sculk_staff/cast

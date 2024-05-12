@@ -1,0 +1,1 @@
+execute as @p[tag=MenuOwner] run function rpgpve:items/buy/blessing/try {Type:"FireResistance", WaveUnlocked: 10, Display:"Fire Resistance", ID:"fire_resistance"}

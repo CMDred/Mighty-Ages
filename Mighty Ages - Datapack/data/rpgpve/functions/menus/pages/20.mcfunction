@@ -8,5 +8,4 @@ execute if items entity @s container.* *[!minecraft:custom_data~{MenuItem:1b}] r
 execute unless score @s Menus.Page matches 20 run return run function rpgpve:menus/refresh_page
 
 #Reset
-loot replace entity @s container.0 loot rpgpve:menus/mage/sceptrepage3
-function rpgpve:items/get_weapon_prices
+loot replace entity @s container.0 loot rpgpve:menus/end_knight/main

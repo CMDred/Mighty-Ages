@@ -1,0 +1,156 @@
+{
+    "pools": [
+      {
+        "rolls": 10,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:magenta_stained_glass_pane",
+            "functions": [
+              {
+                "function": "minecraft:reference",
+                "name": "rpgpve:menus/make_default_item"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "rpgpve:items/utilities/healing/healing_apple",
+            "functions": [
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{Clickable:1b,Slot:10b,MenuItem:1b}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:magenta_stained_glass_pane",
+            "functions": [
+              {
+                "function": "minecraft:reference",
+                "name": "rpgpve:menus/make_default_item"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "rpgpve:items/utilities/healing/healing_potion",
+            "functions": [
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{Clickable:1b,Slot:12b,MenuItem:1b}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:magenta_stained_glass_pane",
+            "functions": [
+              {
+                "function": "minecraft:reference",
+                "name": "rpgpve:menus/make_default_item"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "rpgpve:items/utilities/healing/mending_apple",
+            "functions": [
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{Clickable:1b,Slot:14b,MenuItem:1b}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:magenta_stained_glass_pane",
+            "functions": [
+              {
+                "function": "minecraft:reference",
+                "name": "rpgpve:menus/make_default_item"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "rpgpve:items/utilities/healing/mending_potion",
+            "functions": [
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{Clickable:1b,Slot:16b,MenuItem:1b}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 10,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:magenta_stained_glass_pane",
+            "functions": [
+              {
+                "function": "minecraft:reference",
+                "name": "rpgpve:menus/make_default_item"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "functions": [
+      {
+        "function": "minecraft:copy_custom_data",
+        "source": {
+          "type": "minecraft:storage",
+          "source": "rpgpve:temporary"
+        },
+        "ops": [
+          {
+            "source": "PlayerID",
+            "target": "PlayerID",
+            "op": "replace"
+          }
+        ]
+      }
+    ]
+  }
+  

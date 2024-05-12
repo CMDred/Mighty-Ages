@@ -1,0 +1,1 @@
+execute as @p[tag=MenuOwner] run function rpgpve:items/buy/other/try {ParentFolder:"healing", Type:"HealingPotion", WaveUnlocked: 2, Display:"Healing Potion", ID:"healing_potion"}

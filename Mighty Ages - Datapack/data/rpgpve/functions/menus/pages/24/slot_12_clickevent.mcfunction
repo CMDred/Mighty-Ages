@@ -1,0 +1,1 @@
+execute as @p[tag=MenuOwner] run function rpgpve:items/buy/blessing/try {Type:"AttractiveGauntlet", WaveUnlocked: 10, Display:"Attractive Gauntlet", ID:"attractive_gauntlet"}

@@ -1,0 +1,1 @@
+function rpgpve:items/buy/weapons/try {Type:"MagicRanged",Tier:6,Item:"wand"}

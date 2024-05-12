@@ -60,3 +60,4 @@ scoreboard players set §b bar_blue 1
 
 scoreboard players set §a bar_red 0
 scoreboard players set §a bar_blue 0
+

@@ -40,16 +40,6 @@
                   "show_in_tooltip": false
                 }
               }
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:attribute_modifiers": {
-                  "modifiers": [],
-                  "show_in_tooltip": false
-                },
-                "minecraft:hide_additional_tooltip": {}
-              }
             }
           ]
         }

@@ -1,5 +1,3 @@
-say 12
-
 #Click Events
 execute if score #DontRunClickEvents Dummy matches 0 run function rpgpve:menus/pages/12/check_clickevents with storage rpgpve:menus ClickedItem.components."minecraft:custom_data"
 

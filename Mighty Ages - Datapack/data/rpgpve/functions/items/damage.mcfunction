@@ -4,7 +4,7 @@
 #   LINK www.youtube.com/c/BlueCommander   #
 #==========================================#
 #-------------APPLY REDUCTIONS-------------#
-execute if score #StaffPiercing Dummy matches 1 run scoreboard players reset #Reach Dummy
+execute unless score #StaffPiercing Dummy matches 1 run scoreboard players reset #Reach Dummy
 
 execute if entity @s[tag=AlreadyHit] run return 0
 

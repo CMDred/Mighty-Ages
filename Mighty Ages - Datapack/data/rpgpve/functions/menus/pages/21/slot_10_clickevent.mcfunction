@@ -1,0 +1,1 @@
+execute as @p[tag=MenuOwner] run function rpgpve:items/buy/blessing/try {Type:"GoldTelekinesis", WaveUnlocked: 5, Display:"Gold Telekinesis", ID:"gold_telekinesis"}

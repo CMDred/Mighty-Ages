@@ -112,13 +112,15 @@ scoreboard objectives add LogMath dummy
 
 scoreboard objectives add AbsMath dummy
 
+scoreboard objectives add PowMath dummy
+
 scoreboard objectives add TierHeld dummy
 
 
 function rpgpve:stats/load
 function rpgpve:game/load
 function rpgpve:npcs/reset
-function rpgpve:menu/reset
+function rpgpve:menus/load
 function rpgpve:items/load
 function rpgpve:game/records/load
 

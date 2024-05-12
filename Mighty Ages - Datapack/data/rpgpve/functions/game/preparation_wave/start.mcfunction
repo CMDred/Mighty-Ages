@@ -46,19 +46,28 @@ execute if score #CurrentBattleWave Dummy matches 40..49 in the_end run summon t
 execute if score Difficulty GameSettings matches 0 if entity @a[tag=Eliminated] run function rpgpve:game/difficulty/easy
 execute if score Difficulty GameSettings matches 1 if entity @a[tag=Eliminated] run function rpgpve:game/difficulty/medium
 
-# Reset temp upgrades
-scoreboard players set @a GoldTelekinesis 0
-scoreboard players set @a Speed 0
-scoreboard players set @a Strength 0
-scoreboard players set @a FireRes 0
-scoreboard players set @a ProjProt 0
-scoreboard players set @a Shield 0
+# vexes
+kill @e[type=vex]
 
-clear @a[tag=IsInRPGPVEGame] shield
+# Reset temp upgrades
+scoreboard players reset @a HasGoldTelekinesis
+scoreboard players reset @a HasPiercing
+scoreboard players reset @a HasSpeed
+scoreboard players reset @a HasFireResistance
+scoreboard players reset @a HasStrength
+scoreboard players reset @a HasRevealingTorch
+scoreboard players reset @a HasAttractiveGauntlet
+scoreboard players reset @a HasRepellingGauntlet
+scoreboard players reset @a HasTotemOfUndying
+clear @s *[minecraft:custom_data~{OneWaveOnly:1b}]
+
 effect clear @a[tag=IsInRPGPVEGame] speed
 effect clear @a[tag=IsInRPGPVEGame] fire_resistance
 
 effect give @a[tag=IsInRPGPVEGame,tag=!Eliminated] minecraft:speed infinite 1 true
+
+# Auto Telekinesis
+execute as @a[tag=IsInRPGPVEGame,tag=!Eliminated,scores={HasAutoTelekinesis=1..}] at @s run function rpgpve:items/buy/blessing/try {Type:"GoldTelekinesis", WaveUnlocked: 5, Display:"Gold Telekinesis", ID:"gold_telekinesis"}
 
 # Unlock Tellraws
 execute as @a[tag=IsInRPGPVEGame] at @s run function rpgpve:game/preparation_wave/unlock_tellraws

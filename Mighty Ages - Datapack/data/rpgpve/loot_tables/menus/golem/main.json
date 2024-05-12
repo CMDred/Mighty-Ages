@@ -1,0 +1,156 @@
+{
+    "pools": [
+      {
+        "rolls": 10,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:green_stained_glass_pane",
+            "functions": [
+              {
+                "function": "minecraft:reference",
+                "name": "rpgpve:menus/make_default_item"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "rpgpve:items/utilities/defensive/shield",
+            "functions": [
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{Clickable:1b,Slot:10b,MenuItem:1b}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:green_stained_glass_pane",
+            "functions": [
+              {
+                "function": "minecraft:reference",
+                "name": "rpgpve:menus/make_default_item"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "rpgpve:items/utilities/defensive/wall_ball",
+            "functions": [
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{Clickable:1b,Slot:12b,MenuItem:1b}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:green_stained_glass_pane",
+            "functions": [
+              {
+                "function": "minecraft:reference",
+                "name": "rpgpve:menus/make_default_item"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "rpgpve:items/utilities/defensive/thorns",
+            "functions": [
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{Clickable:1b,Slot:14b,MenuItem:1b}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:green_stained_glass_pane",
+            "functions": [
+              {
+                "function": "minecraft:reference",
+                "name": "rpgpve:menus/make_default_item"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "rpgpve:items/utilities/defensive/barrier",
+            "functions": [
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{Clickable:1b,Slot:16b,MenuItem:1b}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 10,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:green_stained_glass_pane",
+            "functions": [
+              {
+                "function": "minecraft:reference",
+                "name": "rpgpve:menus/make_default_item"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "functions": [
+      {
+        "function": "minecraft:copy_custom_data",
+        "source": {
+          "type": "minecraft:storage",
+          "source": "rpgpve:temporary"
+        },
+        "ops": [
+          {
+            "source": "PlayerID",
+            "target": "PlayerID",
+            "op": "replace"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,1 @@
+execute as @p[tag=MenuOwner] run function rpgpve:items/buy/blessing/try {Type:"RevealingTorch", WaveUnlocked: 5, Display:"Revealing Torch", ID:"revealing_torch"}

@@ -1,0 +1,85 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_dye",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MenuItem:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "text": "Auto-Telekinesis",
+                  "color": "green",
+                  "bold": false,
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "Automatically purchases",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " Gold Telekinesis ",
+                    "color": "light_purple",
+                    "italic": false
+                  },
+                  {
+                    "text": "when",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "each preparation wave starts.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                [
+                  {
+                    "text": "Status:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " INACTIVE",
+                    "color": "dark_gray",
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

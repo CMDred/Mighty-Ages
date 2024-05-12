@@ -1,0 +1,1 @@
+execute as @p[tag=MenuOwner] run function rpgpve:items/buy/blessing/try {Type:"Piercing", WaveUnlocked: 5, Display:"Piercing", ID:"piercing"}

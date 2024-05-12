@@ -40,7 +40,7 @@ function rpgpve:stats/grab_stats/armor/feet
 
 scoreboard players operation @s BonusMaxHealth += @s MaxHealthBonus
 scoreboard players operation @s BonusMaxSkillPoint += @s MaxSkillPointBonus
-execute if score @s Strength matches 1.. run scoreboard players add @s BonusPhysicDamage 60
+execute if score @s HasStrength matches 1.. run scoreboard players add @s BonusPhysicDamage 60
 
 execute if score @s AttractiveLanternTimer matches 1.. run scoreboard players add @s BonusPhysicDamage 20
 
@@ -77,9 +77,6 @@ execute if data storage rpgpve:inventory MainHand.components."minecraft:custom_d
 execute if score @s PhysicRangedPurchased matches 1.. run function rpgpve:game/arrows/main
 
 function rpgpve:game/stats_star/main
-
-execute unless score @s Shield matches 1.. run clear @s shield
-execute unless score @s TotemOfUndying matches 1.. run clear @s totem_of_undying
 
 advancement revoke @s only rpgpve:stats/inventory_changed
 #----------------------------------------#

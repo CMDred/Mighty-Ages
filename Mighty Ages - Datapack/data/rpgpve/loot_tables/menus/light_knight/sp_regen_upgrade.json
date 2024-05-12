@@ -40,9 +40,6 @@
                   "color": "gray",
                   "italic": false
                 },
-                {
-                  "text": " "
-                },
                 [
                   {
                     "text": "Current: ",
@@ -83,9 +80,6 @@
                     "italic": false
                   }
                 ],
-                {
-                  "text": " "
-                },
                 [
                   {
                     "text": "Cost: ",
@@ -106,9 +100,6 @@
                     "italic": false
                   }
                 ],
-                {
-                  "text": " "
-                },
                 {
                   "text": "Click to upgrade!",
                   "color": "yellow",
@@ -138,9 +129,6 @@
                   "color": "gray",
                   "italic": false
                 },
-                {
-                  "text": " "
-                },
                 [
                   {
                     "text": "Current: ",
@@ -161,9 +149,6 @@
                     "italic": false
                   }
                 ],
-                {
-                  "text": " "
-                },
                 {
                   "text": "Maxed Out!",
                   "color": "green",
@@ -190,16 +175,6 @@
                   "modifiers": [],
                   "show_in_tooltip": false
                 }
-              }
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:attribute_modifiers": {
-                  "modifiers": [],
-                  "show_in_tooltip": false
-                },
-                "minecraft:hide_additional_tooltip": {}
               }
             }
           ]

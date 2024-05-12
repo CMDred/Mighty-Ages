@@ -1,7 +1,6 @@
 scoreboard players set #Reach Dummy 200
 
 scoreboard players set @s CastCD 15
-scoreboard players set #StaffPiercing Dummy 1
 
 execute store result score #RandomEffect Dummy run random value 1..2
 execute if score #RandomEffect Dummy matches 1 anchored eyes positioned ^ ^-0.5 ^1 run function rpgpve:items/staffs/stalk_of_truth/raycast1

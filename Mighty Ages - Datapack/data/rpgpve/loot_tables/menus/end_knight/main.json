@@ -1,0 +1,96 @@
+{
+    "pools": [
+      {
+        "rolls": 11,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:purple_stained_glass_pane",
+            "functions": [
+              {
+                "function": "minecraft:reference",
+                "name": "rpgpve:menus/make_default_item"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "rpgpve:menus/end_knight/blessings_menu_button",
+            "functions": [
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{MenuItem:1b,Clickable:1b,Slot:11b}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 3,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:purple_stained_glass_pane",
+            "functions": [
+              {
+                "function": "minecraft:reference",
+                "name": "rpgpve:menus/make_default_item"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "rpgpve:menus/end_knight/gadgets_menu_button",
+            "functions": [
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{MenuItem:1b,Clickable:1b,Slot:15b}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 11,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:purple_stained_glass_pane",
+            "functions": [
+              {
+                "function": "minecraft:reference",
+                "name": "rpgpve:menus/make_default_item"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "functions": [
+      {
+        "function": "minecraft:copy_custom_data",
+        "source": {
+          "type": "minecraft:storage",
+          "source": "rpgpve:temporary"
+        },
+        "ops": [
+          {
+            "source": "PlayerID",
+            "target": "PlayerID",
+            "op": "replace"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -31,17 +31,8 @@ scoreboard players set @s MaxHealthBonus 0
 scoreboard players set @s SPRegenBonus 1
 scoreboard players set @s MaxSkillPointBonus 0
 
-
-
-scoreboard players set @s GoldTelekinesis 0
-scoreboard players set @s Speed 0
-scoreboard players set @s Shield 0
-scoreboard players set @s TotemOfUndying 0
-
-scoreboard players set @s GoldTelekinesisCost 50
-scoreboard players set @s SpeedCost 120
-scoreboard players set @s ShieldCost 200
-scoreboard players set @s TotemOfUndyingCost 500
+scoreboard players reset @s HasAutoTelekinesis
+function rpgpve:items/buy/increase_prices/base_prices
 
 xp set @s 0 levels
 xp set @s 0 points
