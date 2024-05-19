@@ -10,7 +10,7 @@ execute unless score @s Menus.Page matches 37 run return run function rpgpve:men
 #Reset
 loot replace entity @s container.0 loot rpgpve:menus/golem/main
 
-function rpgpve:items/buy/other/setup_item {Slot:10, Type:"HealingApple", WaveUnlocked:0}
-function rpgpve:items/buy/other/setup_item {Slot:12, Type:"HealingPotion", WaveUnlocked:2}
-function rpgpve:items/buy/other/setup_item {Slot:14, Type:"MendingApple", WaveUnlocked:20}
-function rpgpve:items/buy/other/setup_item {Slot:16, Type:"MendingPotion", WaveUnlocked:21}
+function rpgpve:items/buy/other/setup_item {Slot:10, Type:"Shield", WaveUnlocked:5}
+function rpgpve:items/buy/other/setup_item {Slot:12, Type:"WallBall", WaveUnlocked:5}
+function rpgpve:items/buy/other/setup_item {Slot:14, Type:"Thorns", WaveUnlocked:10}
+function rpgpve:items/buy/other/setup_item {Slot:16, Type:"Barrier", WaveUnlocked:20}

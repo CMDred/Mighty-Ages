@@ -1,0 +1,77 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "text": "Barrier",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Right-Click:",
+                  "color": "yellow",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": " Spawns a ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "protective ",
+                    "color": "aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": "barrier that ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": " drastically reduces damage for 15s.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 2,
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                },
+                "!minecraft:max_damage": {},
+                "minecraft:custom_model_data": 19
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

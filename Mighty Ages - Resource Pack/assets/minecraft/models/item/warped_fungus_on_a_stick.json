@@ -99,6 +99,24 @@
           "custom_model_data": 16
         },
         "model": "minecraft:rpgpve/wands/oblivion"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 17
+        },
+        "model": "minecraft:item/firework_star"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 18
+        },
+        "model": "minecraft:item/large_amethyst_bud"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 19
+        },
+        "model": "minecraft:item/heart_of_the_sea"
       }
     ]
   }

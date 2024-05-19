@@ -3,6 +3,8 @@ execute if score @s AppleTimer matches 1 run function rpgpve:items/apple/end
 
 execute if score @s ThrowPotion matches 1.. run function rpgpve:items/potions/throw
 
+execute if score @s ThrowSnowball matches 1.. run function rpgpve:items/use_snowball
+
 execute if score @s CastTime matches 1.. run scoreboard players remove @s CastTime 1
 execute if score @s CastTime matches 1 at @s run function rpgpve:items/staffs/cast_list
 execute if score @s CastCD matches 1.. run scoreboard players remove @s CastCD 1

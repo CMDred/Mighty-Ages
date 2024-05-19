@@ -5,15 +5,19 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:shield",
+          "name": "minecraft:snowball",
           "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{ThrowableID:1}"
+            },
             {
               "function": "minecraft:set_name",
               "entity": "this",
               "name": [
                 {
-                  "text": "Shield",
-                  "color": "green",
+                  "text": "Wall Ball",
+                  "color": "dark_green",
                   "bold": false,
                   "italic": false
                 }
@@ -24,15 +28,21 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "Helps you block attacks!",
+                  "text": "Right-Click:",
+                  "color": "yellow",
+                  "italic": false
+                },
+                {
+                  "text": " Throws a projectile that spawns",
                   "color": "gray",
                   "italic": false
                 },
                 {
-                  "text": "Gets cleared when this wave ends!",
+                  "text": " a protective wall where it lands.",
                   "color": "gray",
                   "italic": false
                 }
+                
               ],
               "mode": "replace_all"
             },
@@ -46,38 +56,11 @@
                 "minecraft:attribute_modifiers": {
                   "modifiers": [],
                   "show_in_tooltip": false
-                }
+                },
+                "minecraft:max_stack_size": 64,
+                "!minecraft:max_damage": {},
+                "minecraft:custom_model_data": 1
               }
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "base_color": "red"
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "team": "red"
-                  }
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "base_color": "blue"
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "team": "blue"
-                  }
-                }
-              ]
             }
           ]
         }

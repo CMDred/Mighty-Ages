@@ -20,6 +20,9 @@ execute if data storage rpgpve:item Item.components."minecraft:custom_data".Reve
 execute if score #RevealingTorch Dummy matches 1.. unless data storage rpgpve:item Item.components."minecraft:custom_data".RevealingTorch run effect clear @e[type=#rpgpve:has_health_bar,tag=RPGPVEMob] glowing
 execute if score #RevealingTorch Dummy matches 1.. unless data storage rpgpve:item Item.components."minecraft:custom_data".RevealingTorch run scoreboard players remove #RevealingTorch Dummy 1
 
+# Throwable ID
+execute store result score @s ThrowableID run data get storage rpgpve:item Item.components."minecraft:custom_data".ThrowableID 
+
 # stats
 function rpgpve:stats/calculate/stats
 

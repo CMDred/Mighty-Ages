@@ -1,6 +1,9 @@
 scoreboard objectives add AppleTimer dummy
 
 scoreboard objectives add ThrowPotion minecraft.used:minecraft.splash_potion
+scoreboard objectives add ThrowSnowball minecraft.used:minecraft.snowball
+
+scoreboard objectives add ThrowableID dummy
 
 # Buyable Items & Blessings
 scoreboard objectives add GoldTelekinesisTimes dummy

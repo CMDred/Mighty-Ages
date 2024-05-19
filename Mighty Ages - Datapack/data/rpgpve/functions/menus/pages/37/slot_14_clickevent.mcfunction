@@ -1,1 +1,1 @@
-execute as @p[tag=MenuOwner] run function rpgpve:items/buy/other/try {ParentFolder:"healing", Type:"MendingApple", WaveUnlocked: 20, Display:"Mending Apple", ID:"mending_apple"}
+execute as @p[tag=MenuOwner] run function rpgpve:items/buy/other/try {ParentFolder:"defensive", Type:"Thorns", WaveUnlocked: 10, Display:"Thorns", ID:"thorns"}
