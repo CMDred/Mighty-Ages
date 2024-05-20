@@ -1,2 +1,0 @@
-execute unless entity @e[type=#rpgpve:has_health_bar,tag=RPGPVEMob,distance=..8] run function rpgpve:items/lanterns/error
-execute if entity @e[type=#rpgpve:has_health_bar,tag=RPGPVEMob,distance=..8] run function rpgpve:items/lanterns/repelling/use

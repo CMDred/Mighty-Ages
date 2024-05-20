@@ -11,7 +11,8 @@ execute if score @s CastCD matches 1.. run scoreboard players remove @s CastCD 1
 
 execute if score @s ExplosiveCooldown matches 1.. run scoreboard players remove @s ExplosiveCooldown 1
 
-execute if score @s AttractiveLanternTimer matches 1.. run scoreboard players remove @s AttractiveLanternTimer 1
+execute if score @s AttractiveGauntletTimer matches 0.. run scoreboard players remove @s AttractiveGauntletTimer 1
+execute if score @s AttractiveGauntletTimer matches 0 run function rpgpve:stats/calculate/stats
 
 execute if score @s TierHeld matches 10 if score @s Walk matches 1.. rotated ~ 0 run particle end_rod ^ ^1 ^-1 0.2 0.6 0.2 0.001 4 normal
 execute if score @s TierHeld matches 10 if score @s Sprint matches 1.. rotated ~ 0 run particle end_rod ^ ^1 ^-1 0.2 0.6 0.2 0.001 4 normal

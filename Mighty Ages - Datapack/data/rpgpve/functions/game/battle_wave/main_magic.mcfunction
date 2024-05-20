@@ -17,9 +17,9 @@ execute as @e[type=falling_block,tag=AnvilBlock] at @s if block ~ ~-1 ~ #rpgpve:
 # mage
 execute at @e[type=zombie,tag=MageProjectile] run particle smoke ^ ^1.7 ^-2 0.2 0.2 0.2 0.1 15 normal
 execute at @e[type=zombie,tag=MageProjectile] run particle flame ^ ^1.7 ^-2 0.1 0.1 0.1 0.01 5 normal
-execute as @e[type=zombie,tag=MageProjectile] at @s run tp @s ^ ^ ^1.4
+execute as @e[type=zombie,tag=MageProjectile] at @s run tp @s ^ ^ ^1
 execute as @e[type=zombie,tag=MageProjectile] at @s unless block ~ ~1 ~ #rpgpve:allowed run function rpgpve:game/battle_wave/monsters/spells/mage/explode
-execute as @e[type=zombie,tag=MageProjectile] at @s if entity @a[tag=IsInRPGPVEGame,gamemode=adventure,dx=1] run function rpgpve:game/battle_wave/monsters/spells/mage/explode
+execute as @e[type=zombie,tag=MageProjectile] at @s if entity @a[tag=IsInRPGPVEGame,gamemode=adventure,distance=..1] run function rpgpve:game/battle_wave/monsters/spells/mage/explode
 # void creeper
 execute as @e[type=armor_stand,tag=VoidCreeperDamageDetect] at @s unless entity @e[type=creeper,tag=VoidCreeper,distance=..2.5] run function rpgpve:game/battle_wave/monsters/spells/void_creeper/exploded
 execute as @e[type=creeper,tag=VoidCreeper] at @s run function rpgpve:game/battle_wave/monsters/spells/void_creeper/check

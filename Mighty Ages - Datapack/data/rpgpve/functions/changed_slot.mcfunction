@@ -15,14 +15,6 @@ execute if score #Tier Dummy matches 12 run particle flame ^-0.4 ^1.5 ^0.3 0.2 0
 
 scoreboard players operation @s TierHeld = #Tier Dummy
 
-# Revealing Torch
-execute if data storage rpgpve:item Item.components."minecraft:custom_data".RevealingTorch run scoreboard players add #RevealingTorch Dummy 1
-execute if score #RevealingTorch Dummy matches 1.. unless data storage rpgpve:item Item.components."minecraft:custom_data".RevealingTorch run effect clear @e[type=#rpgpve:has_health_bar,tag=RPGPVEMob] glowing
-execute if score #RevealingTorch Dummy matches 1.. unless data storage rpgpve:item Item.components."minecraft:custom_data".RevealingTorch run scoreboard players remove #RevealingTorch Dummy 1
-
-# Throwable ID
-execute store result score @s ThrowableID run data get storage rpgpve:item Item.components."minecraft:custom_data".ThrowableID 
-
 # stats
 function rpgpve:stats/calculate/stats
 

@@ -71,6 +71,29 @@
                     "color": "gray",
                     "italic": false
                   }
+                ],
+                {
+                  "text": " Also makes monsters in",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+
+                  {
+                    "text": " a ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "15 block ",
+                    "color": "red",
+                    "italic": false
+                  },
+                  {
+                    "text": "radius target you.",
+                    "color": "gray",
+                    "italic": false
+                  }
                 ]
               ],
               "mode": "replace_all"

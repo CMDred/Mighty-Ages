@@ -17,6 +17,13 @@ data modify storage rpgpve:inventory Inventory set from entity @s Inventory
 data modify storage rpgpve:inventory MainHand set from entity @s SelectedItem
 data modify storage rpgpve:inventory Offhand set from storage rpgpve:inventory Inventory[{Slot:-106b}]
 
+# Throwable items
+execute store result score @s ThrowableID run data get storage rpgpve:inventory MainHand.components."minecraft:custom_data".ThrowableID 
+# Revealing Torch
+execute if data storage rpgpve:inventory MainHand.components."minecraft:custom_data".RevealingTorch run scoreboard players add #RevealingTorch Dummy 1
+execute if score #RevealingTorch Dummy matches 1.. unless data storage rpgpve:inventory MainHand.components."minecraft:custom_data".RevealingTorch run effect clear @e[type=#rpgpve:has_health_bar,tag=RPGPVEMob] glowing
+execute if score #RevealingTorch Dummy matches 1.. unless data storage rpgpve:inventory MainHand.components."minecraft:custom_data".RevealingTorch run scoreboard players remove #RevealingTorch Dummy 1
+
 # default final stats to base stats
 
 scoreboard players operation @s MaxHealth = @s BaseMaxHealth
@@ -42,7 +49,7 @@ scoreboard players operation @s BonusMaxHealth += @s MaxHealthBonus
 scoreboard players operation @s BonusMaxSkillPoint += @s MaxSkillPointBonus
 execute if score @s HasStrength matches 1.. run scoreboard players add @s BonusPhysicDamage 60
 
-execute if score @s AttractiveLanternTimer matches 1.. run scoreboard players add @s BonusPhysicDamage 20
+execute if score @s AttractiveGauntletTimer matches 1.. run scoreboard players add @s BonusPhysicDamage 20
 
 # add bonus stats
 scoreboard players operation @s MaxHealth += @s BonusMaxHealth

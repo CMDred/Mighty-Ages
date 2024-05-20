@@ -6,6 +6,7 @@
 scoreboard players remove #Reach Dummy 1 
 particle end_rod ~ ~ ~ 0.2 0.2 0.2 0.01 4 force
 particle dripping_obsidian_tear ~ ~ ~ 0 0 0 0.1 1 force
+execute unless block ~ ~ ~ #rpgpve:allowed run scoreboard players reset #Reach Dummy
 execute positioned ~ ~-1 ~ as @a[tag=IsInRPGPVEGame,gamemode=adventure,distance=..0.9] run function rpgpve:game/battle_wave/monsters/spells/mystical_ranger/damage 
 execute if score #Reach Dummy matches 1.. positioned ^ ^ ^0.2 run function rpgpve:game/battle_wave/monsters/spells/mystical_ranger/raycast
 #----------------------------------------#

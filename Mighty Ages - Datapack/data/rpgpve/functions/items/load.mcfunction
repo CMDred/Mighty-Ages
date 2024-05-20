@@ -22,10 +22,12 @@ scoreboard objectives add PiercingCost dummy
 scoreboard objectives add AttractiveGauntletTimes dummy
 scoreboard objectives add HasAttractiveGauntlet dummy
 scoreboard objectives add AttractiveGauntletCost dummy
+scoreboard objectives add AttractiveGauntletTimer dummy
 
 scoreboard objectives add RepellingGauntletTimes dummy
 scoreboard objectives add HasRepellingGauntlet dummy
 scoreboard objectives add RepellingGauntletCost dummy
+scoreboard objectives add RepellingGauntletTimer dummy
 
 scoreboard objectives add FireResistanceTimes dummy
 scoreboard objectives add HasFireResistance dummy

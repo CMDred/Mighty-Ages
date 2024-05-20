@@ -4,6 +4,7 @@
 #========================================#
 #--------------BATTLE WAVE---------------#
 scoreboard players remove #Reach Dummy 1 
+execute unless block ~ ~ ~ #rpgpve:allowed run scoreboard players reset #Reach Dummy
 execute as @a[tag=IsInRPGPVEGame,gamemode=adventure,distance=..3] at @e[type=skeleton,tag=ThisMob] run function rpgpve:game/battle_wave/monsters/spells/mage/shoot
 execute if score #Reach Dummy matches 1.. positioned ^ ^ ^0.2 run function rpgpve:game/battle_wave/monsters/spells/mage/raycast
 #----------------------------------------#
