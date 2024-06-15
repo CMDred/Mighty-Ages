@@ -13,6 +13,9 @@ execute if data storage rpgpve:right_click Weapon.components."minecraft:custom_d
 # gauntlets
 execute if data storage rpgpve:right_click Weapon.components."minecraft:custom_data".GauntletType run function rpgpve:items/gauntlets/check
 
+# other
+execute if data storage rpgpve:right_click Weapon.components."minecraft:custom_data".Thorns run function rpgpve:items/thorns/check
+
 # reset
 scoreboard players reset @s RightClick
 tag @s remove Attacker

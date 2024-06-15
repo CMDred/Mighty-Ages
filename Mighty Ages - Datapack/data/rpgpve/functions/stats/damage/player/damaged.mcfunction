@@ -3,10 +3,13 @@
 # Please don't claim this as your own work #
 #            Youtube : CMDRED              #
 #==========================================#
-#--------------CALC DAMAGE---------------#
+#---------------SETUP----------------#
 scoreboard players operation #RawDamage Dummy = @s DamageTaken
 scoreboard players operation #RawDamage Dummy /= #c10 Constant
 execute if score #UsedProjectile Dummy matches 1 as @e[type=#minecraft:arrows,sort=nearest,limit=1] run scoreboard players operation #RawDamage Dummy = @s ArrowDamage
+#------------------THORNS------------------#
+execute if score @s ThornsCooldown matches 1.. run function rpgpve:stats/calculate/thorns
+#------------------CALC------------------#
 scoreboard players operation #Defense Dummy = @s PhysicDefense
 function rpgpve:stats/calculate/damage_with_defense
 scoreboard players operation #FinalDamage Dummy = #DefensedDamage Dummy

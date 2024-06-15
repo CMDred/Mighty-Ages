@@ -29,4 +29,7 @@ execute as @e[type=#rpgpve:has_health_bar,tag=MiniBoss] at @s anchored eyes posi
 
 execute if score #CurrentBattleWave Dummy matches 20..29 run function rpgpve:game/battle_wave/main_magic
 execute if score #CurrentBattleWave Dummy matches 40..50 run function rpgpve:game/battle_wave/main_end
+
+
+execute if score #RevealingTorch Dummy matches 1.. run effect give @e[type=#rpgpve:has_health_bar,tag=RPGPVEMob] glowing 2 1 true
 #----------------------------------------#

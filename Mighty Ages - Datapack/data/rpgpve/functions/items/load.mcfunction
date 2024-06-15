@@ -65,6 +65,7 @@ scoreboard objectives add WallBallCost dummy
 
 scoreboard objectives add ThornsTimes dummy
 scoreboard objectives add ThornsCost dummy
+scoreboard objectives add ThornsCooldown dummy
 
 scoreboard objectives add BarrierTimes dummy
 scoreboard objectives add BarrierCost dummy

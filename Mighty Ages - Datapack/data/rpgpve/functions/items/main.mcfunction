@@ -5,6 +5,8 @@ execute if score @s ThrowPotion matches 1.. run function rpgpve:items/potions/th
 
 execute if score @s ThrowSnowball matches 1.. run function rpgpve:items/use_snowball
 
+execute if score @s ThornsCooldown matches 1.. run scoreboard players remove @s ThornsCooldown 1
+
 execute if score @s CastTime matches 1.. run scoreboard players remove @s CastTime 1
 execute if score @s CastTime matches 1 at @s run function rpgpve:items/staffs/cast_list
 execute if score @s CastCD matches 1.. run scoreboard players remove @s CastCD 1

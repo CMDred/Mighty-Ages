@@ -1,7 +1,5 @@
 schedule function rpgpve:main_1s 1s
 
-execute if score #RevealingTorch Dummy matches 1.. run effect give @e[type=#rpgpve:has_health_bar,tag=RPGPVEMob] glowing 2 1 true
-
 # Delete Arrows
 execute as @e[type=#minecraft:arrows,nbt={inGround:1b}] run kill @s
 
